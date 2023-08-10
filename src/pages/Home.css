@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Roboto:wght@500&display=swap');
+
+.login-button {
+    background-color: #ffbb00; 
+    border-color: #ffbb00; 
+    box-shadow: 0px 5px 16px 0px rgba(255, 187, 0, 0.25);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    height: 36px;
+}
+
+button.ant-btn.css-dev-only-do-not-override-fpg3f5.ant-btn-default.sm\:mr-20.sm\:w-100.bg-loginBgColor.login-button:hover{
+    background-color: #ffbb00; 
+    border-color: #ffbb00; 
+    color: black;
+    box-shadow: 0px 6px 13px 0px rgba(255, 187, 0, 0.4);
+}
+
+.crypto-currency-button {
+    background-color: #ffbb00; 
+    border-color: #ffbb00; 
+    box-shadow: 0px 5px 16px 0px rgba(255, 187, 0, 0.25);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    height: 36px;
+}
+
+/* button.ant-btn.css-dev-only-do-not-override-fpg3f5.ant-btn-default.sm\:mr-20.sm\:w-100.bg-loginBgColor.crypto-currency-button:hover{
+    background-color: #ffbb00; 
+    border-color: #ffbb00; 
+    color: black;
+    box-shadow: 0px 6px 13px 0px rgba(255, 187, 0, 0.4);
+} */
+
+:where(.css-dev-only-do-not-override-fpg3f5).ant-btn-default:not(:disabled):not(.ant-btn-disabled).crypto-currency-button:hover{
+    background-color: #ffbb00; 
+    border-color: #ffbb00; 
+    color: black;
+    box-shadow: 0px 6px 13px 0px rgba(255, 187, 0, 0.4);
+}

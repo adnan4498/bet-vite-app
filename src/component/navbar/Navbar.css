@@ -1,0 +1,12 @@
+/* Navbar.css */
+
+/* Hamburger button styles */
+.hamburger-button {
+    transition: transform 0.3s ease; /* Add transition property */
+  }
+  
+  /* Rotate the button when the menu is open */
+  .menu-open .hamburger-button {
+    transform: rotate(90deg);
+  }
+  
