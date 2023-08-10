@@ -27,7 +27,7 @@ export default {
 
       spacing: (() => {
         const spacingValues = {};
-        for (let i = 1; i <= 600; i++) {
+        for (let i = 1; i <= 1200; i++) {
           spacingValues[i] = `${i}px`;
         }
         return spacingValues;

@@ -2,3 +2,9 @@
 body{
     font-family: "Poppins";
 }
+
+.container-2{
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+}
