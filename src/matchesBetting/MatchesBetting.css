@@ -1,0 +1,10 @@
+.card-css{
+    border-radius: 10px;
+    border-color: #060041;
+}
+
+.custom-card {
+    border: 1px solid #000; /* Border color */
+    border-radius: 0 10px 10px 0; /* Border radius values for right top bottom left */
+    padding: 10px; /* Add padding to create space between the content and the border */
+  }

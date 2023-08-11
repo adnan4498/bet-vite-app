@@ -31,6 +31,9 @@ export default {
         websiteBgColor: "#3A126A",
         navbarBgColor: "#1F186B",
         loginBgColor: "#ffbb00",
+        cardDarkBlue: "#060041",
+        cardBlue:"#1d1379",
+        cardPurple: "#3f368c"
       },
     },
 
