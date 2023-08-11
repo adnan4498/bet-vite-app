@@ -9,12 +9,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-navbarBgColor sm:h-90 text-white text-center sm:mt-30 flex justify-between items-center sm:rounded-md h-65 pl-15 pr-15 ">
+    <div className="bg-navbarBgColor sm:h-90 text-white text-center sm:mt-30 flex justify-between items-center sm:rounded-md h-65 pl-15 pr-15 lg:w-100%">
       <div className="sm:pl-60">
         <img src={navbarLogo} className=" w-150 sm:w-300" alt="Navbar Logo" />
       </div>
 
-      <div className="sm:pr-60 ">
+      <div className="md:pr-0 ">
         <button
           className="sm:hidden "
           onClick={toggleMenu}

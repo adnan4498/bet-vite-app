@@ -9,30 +9,28 @@ import "../../src/pages/Home.css";
 const Home = () => {
   return (
     <div className="container-2">
-      <div className="flex">
+      <div className="flex flex-col sm:flex-row sm:mt-0   ">
         <div>
-          <img
-            src={coverDriveOnlineImage}
-            className="sm:w-700 sm:mt-140  w-250"
-          />
-          <img src={playUnlimited} className=" sm:mt-22 sm:w-230" />
-          <img src={bestInvestment} className=" sm:w-720 sm:mt-25" />
+          {/* <img src={coverDriveOnlineImage} className="sm:w-700 sm:mt-160 w-350  " /> */}
+          <img src={coverDriveOnlineImage} className=" 2xl:mt-160 xl:mt-150 mt-30   " />
 
-          <div className="flex sm:mt-25 ">
-            <Button className="sm:mr-20 sm:w-100 bg-loginBgColor login-button">
+          <img src={playUnlimited} className="2xl:w-260 2xl:mt-28 2xl:mb-30 sm:mt-22 sm:w-230 w-250 mt-13 xl:w-250 xl  " />
+          <img src={bestInvestment} className="2xl:w-1050 xl:w-850   sm:w-930 sm:mt-25 mt-9" />
+
+          <div className="flex sm:mt-25 mt-15">
+            <Button className="2xl:w-140 2xl:text-2xl xl:text-lg xl:w-125 xl:h-46 sm:mr-20 sm:h-50 sm:text-2xl text-xs w-100 mr-10 rounded-lg bg-loginBgColor login-button">
               {" "}
               Login{" "}
             </Button>
-            <Button className="sm:mr-20  bg-loginBgColor crypto-currency-button">
+            <Button className="2xl:text-2xl xl:text-lg xl:h-46  sm:mr-20 sm:h-50  text-xs rounded-lg bg-loginBgColor crypto-currency-button">
               {" "}
               Only Cryptop Currency Use{" "}
             </Button>
             {/* <Button/> */}
           </div>
         </div>
-
-        <div>
-          <img src={sportsPlayers} className="sm:w-570 sm:mt-30 sm:ml-130" />
+        <div> 
+          <img src={sportsPlayers} className=" 2xl:max-w-122 sm:mt-30  sm:max-w-117 mt-30 max-w-101 xl:max-w-119 xl:ml-20  " />
         </div>
       </div>
     </div>
