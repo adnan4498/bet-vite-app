@@ -17,26 +17,37 @@ import MatchesCard from "./MatchesCard/MatchesCard";
 import BettingCards from "./bettingCards/BettingCards";
 import MatchesCard2 from "./matchesCard2/MatchesCard2";
 import MatchesCard3 from "./matchesCard3/MatchesCard3";
+import InstantAction from "./instantAction/InstantAction";
 
 function App() {
   const [count, setCount] = useState(0);
 
+    
+
   return (
     <>
-      {/* <div className="container mx-auto">
+      <div className="">
         <Navbar />
         <Home />
       </div>
+      <div>
+        <InstantAction/>
+      </div>
+
+      <div className="">
+        <MatchesBetting/>
+      </div>
+
       <div className="">
         <Casino />
       </div>
-      <div className="container mx-auto">
-        <MatchesBetting/>
-      </div>
+ 
       <div className="">
         <HowItWorks/>
       </div>
-      <div className="container mx-auto">
+
+      
+      {/* <div className="container mx-auto">
         <BettingFeatures/>
       </div>
       <div>
@@ -71,11 +82,11 @@ function App() {
 
 
 
-      <div className="container mx-auto">
+      {/* <div className="container mx-auto">
           <Navbar/>
           <MatchesCard3/>
           <Footer/>
-      </div>
+      </div> */}
     </>
   );
 }
