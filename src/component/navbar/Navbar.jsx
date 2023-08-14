@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import navbarLogo from "../../../public/navbar-logo-svg.svg";
+import "../navbar/Navbar.css"
+
+import { Button, Card } from "antd";
+
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,22 +26,23 @@ const Navbar = () => {
         >
           ☰
         </button>
-        <div className="flex">
+        <div className="flex 2xl:pr-50">
           <ul
             className={`${
               menuOpen ? "flex sm:flex " : "hidden"
             } sm:flex sm:text-sm sm:space-x-4 flex-col sm:flex-row text-xs `}
           >
-            <li className="py-2 sm:py-0">Cricket Bet</li>
-            <li className="py-2 sm:py-0">Football Bet</li>
+            <li className="py-2 2xl:py-7 2xl:px-20 custom-font-family-4 sm:py-0 ">Cricket Bet</li>
+            <li className="py-2 2xl:py-7 2xl:px-20 custom-font-family-4 sm:py-0">Football Bet</li>
           </ul>
           <ul
             className={`${
               menuOpen ? "flex sm:flex" : "hidden"
             } sm:flex sm:text-sm sm:space-x-4 flex-col sm:flex-row text-xs`}
           >
-            <li className="py-2 sm:py-0">Casinos</li>
-            <li className="py-2 sm:py-0">Other Games</li>
+            <li className="py-2 2xl:py-7 2xl:px-20 custom-font-family-4 sm:py-0">Casinos</li>
+            <li className="py-2 2xl:py-7 2xl:px-20 custom-font-family-4 sm:py-0">Other Games</li>
+            <Button className="login-button bg-loginBgColor custom-font-family">Log Out</Button>
           </ul>
         </div>
       </div>

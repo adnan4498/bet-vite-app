@@ -13,10 +13,18 @@ export default {
 
       fontSize: (() => {
         const fontSizeValues = {};
-        for (let i = 1; i <= 20; i++) {
-          fontSizeValues[`text-${i}`] = `${i}px`;
+        for (let i = 1; i <= 100; i++) {
+          fontSizeValues[`${i}`] = `${i}px`;
         }
         return fontSizeValues;
+      })(),
+
+      lineHeight: (() => {
+        const lineHeightValues = {};
+        for (let i = 1; i <= 100; i++) {
+          lineHeightValues[`${i}`] = `${i}px`;
+        }
+        return lineHeightValues;
       })(),
 
       spacing: (() => {
