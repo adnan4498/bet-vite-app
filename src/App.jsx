@@ -47,19 +47,19 @@ function App() {
       </div>
 
       
-      {/* <div className="container mx-auto">
+      <div className="">
         <BettingFeatures/>
       </div>
-      <div>
+       <div>
         <WantToWin/>
       </div>
-      <div className="container mx-auto">
+      <div className="">
         <Clients/>
       </div>
-      <div className="container mx-auto">
+      <div className="">
         <Footballers/>
         <Footer/>
-      </div> */}
+      </div>  
 
 
 

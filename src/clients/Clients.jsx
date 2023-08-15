@@ -5,9 +5,19 @@ import star from "/star.svg";
 import profileImg from "/clientProfileImg.svg";
 import clientQoute from "/qouteClient.svg";
 
+import purple from "/clientPurple.svg"
+import circle from "/circleBetting.svg"
+import circle2 from "/homeCircle.svg"
+
 const Clients = () => {
   return (
-    <div className="clients-div 2xl:mt-150 2xl:mb-150 2xl:container-22 flex">
+    <>
+    <div className="relative ">
+      <img src={purple} className="absolute 2xl:right-0 2xl:-top-100 2xl:w-400" />
+      <img src={circle} className="absolute 2xl:w-220 2xl:right-0 2xl:top-450" />
+      <img src={circle2} className="absolute 2xl:w-80 2xl:right-230 2xl:top-620" />
+    </div>
+    <div className="clients-div 2xl:mt-300 2xl:mb-150 flex container mx-auto">
       <div>
         <p className="text-white custom-font-family 2xl:text-70 2xl:leading-80 2xl:mt-40">
           What <br></br> Our Client's say
@@ -24,7 +34,7 @@ const Clients = () => {
       </div>
 
       <div
-        className="bg-cardDarkBlue 2xl:w-900 2xl:h-455 2xl:ml-70 rounded-3xl"
+        className="bg-cardDarkBlue 2xl:w-900 2xl:h-455 2xl:ml-70 rounded-3xl z-10"
         style={{ border: "9px solid #342f62" }}
       >
         <div className="flex justify-between">
@@ -36,12 +46,12 @@ const Clients = () => {
             </div>
           </div>
 
-          <div className="flex 2xl:pr-60">
-            <img src={star} className="2xl:mr-10" />
-            <img src={star} className="2xl:mr-10" />
-            <img src={star} className="2xl:mr-10" />
-            <img src={star} className="2xl:mr-10" />
-            <img src={star} />
+          <div className="flex 2xl:pr-40">
+            <img src={star} className="2xl:mr-10 2xl:w-30" />
+            <img src={star} className="2xl:mr-10 2xl:w-30" />
+            <img src={star} className="2xl:mr-10 2xl:w-30" />
+            <img src={star} className="2xl:mr-10 2xl:w-30" />
+            <img src={star} className="2xl:w-30"/>
           </div>
         </div>
 
@@ -64,6 +74,7 @@ const Clients = () => {
         {/* <div className="2xl:w-1/2 border-b border-white"></div> */}
       </div>
     </div>
+    </>
   );
 };
 

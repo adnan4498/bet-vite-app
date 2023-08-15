@@ -4,10 +4,27 @@ import bettingFirstImgBg from "/betting-first-img-bg.svg"
 import bettingFirstImg from "/betting-first-img.svg"
 import { Button } from 'antd';
 
+import purpleCircle from "/purpleCircleBettingFeature.svg"
+import smallCircle from "/smallCircleBettingFeature.svg"
+import halfCircle from "/halfPurpleCircleBettingFeature.svg"
+import purpleSplash from "/purpleSplashBettingFeature.svg"
+import yellowDot from "/littleYellowDot.svg"
 
 const BettingFeatures = () => {
   return (
-    <div className="betting-feature-div 2xl:mt-150 2xl:mb-150 flex ">
+    <>
+    <div className="relative">
+      <img src={purpleCircle} className="absolute 2xl:-top-100" />
+      <img src={smallCircle} className="absolute 2xl:right-100 2xl:-top-30" />
+      <img src={halfCircle} className="absolute 2xl:right-0 2xl:top-400" />
+      <img src={purpleSplash} className="absolute 2xl:top-200"/>
+      <img src={yellowDot} className="absolute 2xl:left-270 2xl:top-210"/>
+      <img src={yellowDot} className="absolute 2xl:left-270 2xl:top-300"/>
+      <img src={yellowDot} className="absolute 2xl:left-270 2xl:top-378"/>
+      <img src={yellowDot} className="absolute 2xl:left-270 2xl:top-490"/>
+    </div>
+    <div className="container mx-auto">
+    <div className="betting-feature-div 2xl:mt-150 2xl:mb-150 flex container-2 ">
      <div className="flex flex-col">   
       <div className="betting-heading 2xl:mt-30">
         <h2 className="text-white custom-font-family 2xl:text-60">Our Betting features</h2>
@@ -88,6 +105,8 @@ const BettingFeatures = () => {
       </div>
 
     </div>
+    </div>
+    </>
   );
 };
 
