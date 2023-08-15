@@ -13,7 +13,7 @@ const Footballers = () => {
   return (
     <>
     <div className="relative">
-      <img src={purple} className="absolute 2xl:pt-100 2xl:w-610 opacity-70" />
+      <img src={purple} className="absolute 2xl:pt-100 2xl:w-610 opacity-70"/>
       <img src={footballerPinkLeft} className="absolute 2xl:-top-400 " />
       <img src={footballerLeftDaimond} className="absolute 2xl:w-90 2xl:left-230"/>
       <img src={footballerPurple} className="absolute 2xl:w-450 2xl:right-0 opacity-50" />

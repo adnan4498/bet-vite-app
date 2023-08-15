@@ -1,7 +1,9 @@
 import React from "react";
 import "../footer/Footer.css";
-import footerBg from "/footerPurple.svg"
-import leftDaimond from "/footballerLeftDaimond.svg"
+import footerBg from "/footerPurple.svg";
+import leftDaimond from "/footballerLeftDaimond.svg";
+import smallCircle from "/smallCircleBettingFeature.svg";
+import footerLastCircle from "/footerLastCircle.svg";
 
 import socialIcons from "/socialIcons.svg";
 import { Input, Button } from "antd";
@@ -9,11 +11,16 @@ import { Input, Button } from "antd";
 const Footer = () => {
   return (
     <>
-    <div className="relative">
-      <img src={footerBg} className="absolute 2xl:top-100 z-0" />
-      <img src={leftDaimond} className="absolute"/>
-    </div>
-      <div className="container mx-auto 2xl:pt-50">
+      <div className="relative">
+        <img src={footerBg} className="absolute 2xl:top-100 z-0" />
+        <img src={leftDaimond} className="absolute 2xl:top-120 2xl:left-30" />
+        <img
+          src={smallCircle}
+          className="absolute 2xl:w-40 2xl:-bottom-480 2xl:left-20"
+        />
+        <img src={footerLastCircle} className="absolute 2xl:-bottom-655" />
+      </div>
+      <div className="container mx-auto 2xl:pt-52">
         <div className="footer-div 2xl:mt-150 2xl:mb-100 flex justify-between container-2 ">
           <div className="first-section z-50">
             <h2 className="text-white custom-font-family 2xl:text-80">Logo</h2>
@@ -73,7 +80,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="relative">
+          <div className="2xl:w-1450 2xl:mx-auto 2xl:ml-50 h-px bg-[#C1C1C1] absolute 2xl:-top-70 transform -translate-y-1/2"></div>
+        </div>
       </div>
+      <p className="bg-[#290c5d] w-full border-[#290c5d] text-white text-center border-2 2xl:pb-30">© Copyright 2023 All rights reserved.</p>
     </>
   );
 };

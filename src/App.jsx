@@ -18,6 +18,7 @@ import BettingCards from "./bettingCards/BettingCards";
 import MatchesCard2 from "./matchesCard2/MatchesCard2";
 import MatchesCard3 from "./matchesCard3/MatchesCard3";
 import InstantAction from "./instantAction/InstantAction";
+import StatsTable from "./statsTable/StatsTable";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -86,6 +87,12 @@ function App() {
           <Navbar/>
           <MatchesCard3/>
           <Footer/>
+      </div> */}
+
+
+
+      {/* <div className="">
+        <StatsTable/>
       </div> */}
     </>
   );
