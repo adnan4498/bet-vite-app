@@ -10,10 +10,22 @@ import africanIcon from "/africanIcon.svg";
 import plusSign from "/plusSign.svg";
 import worldCupTag from "/worldCupTag.svg";
 import locationTag from "/locationTag.svg";
+import half from '/halfCircle.svg'
+import purpleEclipseBetting from "/purpleEclipseBettig.svg";
+import Vector1 from '/Vector1.svg'
+import Vector2 from '/Vector2.svg'
+import Vector3 from '/Vector3.svg'
+import Vector4 from '/Vector4.svg'
+import halfCircle from "/howItWorkHalfCircle.svg";
+import './MatchesCard.css'
 
 const MatchesCard = () => {
   return (
     <>
+      <img src={half} alt="" className="absolute right-0 top-900"/>
+      <div className="blur"/>
+    <div className="container mx-auto relative">
+    
       <div className="container-2">
         <div>
           <h2 className=" text-white custom-font-family 2xl:text-50 text-center 2xl:mt-100 2xl:mb-40 ">
@@ -379,7 +391,14 @@ const MatchesCard = () => {
       </div>
       
 
-      <div className="container-2">
+      <div className="container-2 relative">
+        <img src={purpleEclipseBetting} alt="" className="absolute -left-300  top-40" style={{zIndex: -1}} />
+        <img src={Vector1} alt="" className="absolute -left-300  " style={{zIndex: -1 , top: "550px"}} />
+        <img src={Vector2} alt="" className="absolute -left-300 " style={{zIndex: -1, top: "550px"}} />
+        <img src={Vector3} alt="" className="absolute -right-265 " style={{zIndex: -1, top: "150px"}} />
+        <img src={Vector4} alt="" className="absolute -right-265 " style={{zIndex: -1, top: "50px"}} />
+       
+
         <div>
           <h2 className=" text-white custom-font-family 2xl:text-50 text-center 2xl:mt-150 2xl:mb-40 ">
             Football Matches
@@ -741,7 +760,8 @@ const MatchesCard = () => {
           </div>
       </div>
 
-      <div className="container-2">
+      <div className="container-2 relative">
+      <img src={halfCircle} alt="" className="absolute -left-300 " style={{zIndex: -1, top: "800px"}} />
         <div>
           <h2 className=" text-white custom-font-family 2xl:text-50 text-center 2xl:mt-150 2xl:mb-40 ">
             Boxing Matches
@@ -1100,6 +1120,7 @@ const MatchesCard = () => {
         <div className="flex justify-center 2xl:mt-60">
           <Button className="login-button bg-loginBgColor 2xl:w-135 2xl:h-45 rounded-lg">Show More</Button>
           </div>
+      </div>
       </div>
     </>
   );

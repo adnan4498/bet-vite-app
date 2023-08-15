@@ -26,7 +26,17 @@ function App() {
 
   return (
     <>
-      <div className="">
+
+
+      {/* <Routes>
+        <Route path="page1">
+
+        </Route>
+      </Routes> */}
+
+
+
+      {/* <div className="">
         <Navbar />
         <Home />
       </div>
@@ -59,27 +69,24 @@ function App() {
       <div className="">
         <Footballers/>
         <Footer/>
-      </div>  
+      </div>   */}
 
 
 
 
-      {/* <div className="container mx-auto">
+      <div className="">
         <Navbar />
-        <MatchesCard />
       </div>
+        <MatchesCard />
 
       <div>
         <BettingCards />
       </div>
 
-      <div className="container mx-auto">
+      <div className="">
         <MatchesCard2 />
         <Footer />
-      </div> */}
-
-
-
+      </div>
 
 
       {/* <div className="container mx-auto">

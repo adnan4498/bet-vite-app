@@ -2,6 +2,8 @@ import React from "react";
 import "../footer/Footer.css";
 import footerBg from "/footerPurple.svg"
 import leftDaimond from "/footballerLeftDaimond.svg"
+import circle from "/footerCircle.svg"
+import circle2 from "/smallCircleBettingFeature.svg"
 
 import socialIcons from "/socialIcons.svg";
 import { Input, Button } from "antd";
@@ -12,6 +14,8 @@ const Footer = () => {
     <div className="relative">
       <img src={footerBg} className="absolute 2xl:top-100 z-0" />
       <img src={leftDaimond} className="absolute"/>
+      <img src={circle2} className="absolute 2xl:top-420 2xl:left-10 2xl:w-50"/>
+      <img src={circle} className="absolute 2xl:top-495"/>
     </div>
       <div className="container mx-auto 2xl:pt-50">
         <div className="footer-div 2xl:mt-150 2xl:mb-100 flex justify-between container-2 ">
