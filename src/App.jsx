@@ -36,7 +36,7 @@ function App() {
 
 
 
-      {/* <div className="">
+      <div className="">
         <Navbar />
         <Home />
       </div>
@@ -68,13 +68,19 @@ function App() {
       </div>
       <div className="">
         <Footballers/>
+        <MatchesCard />
+        <BettingCards />
+        <MatchesCard2 />
+        <div className="container mx-auto">
+        <MatchesCard3/>
+        </div>
         <Footer/>
-      </div>   */}
+      </div>  
 
 
 
 
-      <div className="">
+      {/* <div className="">
         <Navbar />
       </div>
         <MatchesCard />
@@ -86,7 +92,7 @@ function App() {
       <div className="">
         <MatchesCard2 />
         <Footer />
-      </div>
+      </div> */}
 
 
       {/* <div className="container mx-auto">

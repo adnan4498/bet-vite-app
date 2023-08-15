@@ -17,12 +17,16 @@ import Vector2 from '/Vector2.svg'
 import Vector3 from '/Vector3.svg'
 import Vector4 from '/Vector4.svg'
 import halfCircle from "/howItWorkHalfCircle.svg";
+import circle from "/smallCircleBettingFeature.svg"
 import './MatchesCard.css'
 
 const MatchesCard = () => {
   return (
     <>
       <img src={half} alt="" className="absolute right-0 top-900"/>
+      <img src={Vector4} className="absolute 2xl:right-0 " />
+      <img src={Vector3} className="absolute 2xl:-left-150 opacity-70 " />
+      <img src={circle} className="absolute 2xl:w-150"  />
       <div className="blur"/>
     <div className="container mx-auto relative">
     
