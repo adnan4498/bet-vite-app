@@ -59,6 +59,9 @@ function App() {
       </div>
       <div className="">
         <Footballers/>
+        <div className="container mx-auto">
+        <MatchesCard />
+        </div>
         <Footer/>
       </div>  
 
