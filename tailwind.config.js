@@ -5,7 +5,7 @@ export default {
     extend: {
       maxWidth: (() => {
         const maxWidthValues = {};
-        for (let i = 100; i <= 130; i++) {
+        for (let i = 100; i <= 300; i++) {
           maxWidthValues[i.toString()] = `${i}%`;
         }
         return maxWidthValues;
@@ -21,7 +21,7 @@ export default {
 
       lineHeight: (() => {
         const lineHeightValues = {};
-        for (let i = 1; i <= 100; i++) {
+        for (let i = 1; i <= 200; i++) {
           lineHeightValues[`${i}`] = `${i}px`;
         }
         return lineHeightValues;
@@ -46,7 +46,7 @@ export default {
     },
 
     screens: {
-      // 'xs' : '320px',
+      'xs' : '320px',
 
       sm: "640px",
       // => @media (min-width: 640px) { ... }

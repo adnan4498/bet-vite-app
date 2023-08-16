@@ -21,8 +21,10 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
 
+
   return (
     <>
+      <div className="hidden xl:block" >
       <img src={purpleCurve} className="absolute 2xl:-top-90 2xl:w-570 2xl:h-610 "/>
       <img src={pinkDot} className="absolute 2xl:-top-30 2xl:w-215 z-30" />
       <img src={purpleSplash} className="absolute 2xl:-top-100 2xl:w-320 2xl:left-0 " />
@@ -36,9 +38,10 @@ const Navbar = () => {
       <img src={daimond2} className="absolute 2xl:bottom-10 2xl:right-920 2xl:left-920 2xl:w-150"/>
       <img src={daimondBrightness} className="absolute 2xl:bottom-10 2xl:right-920 2xl:left-920 2xl:w-150 transform rotate-17"/>
       <img src={daimond} class="absolute 2xl:-bottom-120 z-10 2xl:left-290 2xl:w-40 transform rotate-12" />
+      </div>
 
 
-      <div className="bg-navbarBgColor sm:h-90 container mx-auto text-white text-center sm:mt-30  flex justify-between items-center sm:rounded-md h-65 pl-15 pr-15 lg:w-100% relative">
+      <div className="bg-navbarBgColor sm:h-90 xl:container xl:mx-auto text-white text-center sm:mt-30  flex justify-between items-center sm:rounded-md h-65 pl-15 pr-15 lg:w-100% relative">
         <div className="sm:pl-60">
           <img src={navbarLogo} className=" w-150 sm:w-300" alt="Navbar Logo" />
         </div>

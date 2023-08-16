@@ -10,11 +10,22 @@ import africanIcon from "/africanIcon.svg";
 import plusSign from "/plusSign.svg";
 import worldCupTag from "/worldCupTag.svg";
 import locationTag from "/locationTag.svg";
+import purpleCircle from "/purpleCircleBettingFeature.svg"
+import Vector1 from "/Vector12.svg"
+import Vector12 from "/Vector13.svg"
+import Vector3 from "/Vector14.svg"
+import Vector4 from "/Vector15.svg"
 
 const MatchesCard2 = () => {
   return (
     <>
-    <div className="container-2">
+    <div className="container mx-auto ">
+    <div className="container-2 relative">
+      <img src={purpleCircle} alt=""  className="absolute -left-300 w-145 top-100"/>
+      <img src={Vector1} alt=""  className="absolute -left-300  top-100"  style={{zIndex:-1}}/>
+      <img src={Vector12} alt=""  className="absolute -left-300  top-100"  style={{zIndex:-1}}/>
+      <img src={Vector3} alt=""  className="absolute -right-265  top-400"  style={{zIndex:-1}}/>
+      <img src={Vector4} alt=""  className="absolute -right-265  top-1000"  style={{zIndex:-1}}/>
         <div>
           <h2 className=" text-white custom-font-family 2xl:text-50 text-center 2xl:mt-150 2xl:mb-40 ">
             Horse Racing
@@ -740,6 +751,7 @@ const MatchesCard2 = () => {
         <div className="flex justify-center 2xl:mt-60">
           <Button className="login-button bg-loginBgColor 2xl:w-135 2xl:h-45 rounded-lg">Show More</Button>
           </div>
+      </div>
       </div>
       </>
   )

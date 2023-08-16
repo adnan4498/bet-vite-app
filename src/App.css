@@ -8,3 +8,10 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+
+
+.container-xs{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}

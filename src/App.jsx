@@ -23,34 +23,39 @@ import StatsTable from "./statsTable/StatsTable";
 function App() {
   const [count, setCount] = useState(0);
 
-    
-
   return (
     <>
+      {/* <Routes>
+        <Route path="page1">
+
+        </Route>
+      </Routes> */}
+
       <div className="">
         <Navbar />
         <Home />
       </div>
       <div>
-        <InstantAction/>
+        <InstantAction />
       </div>
 
       <div className="">
-        <MatchesBetting/>
+        <MatchesBetting />
       </div>
 
       <div className="">
         <Casino />
       </div>
- 
+
       <div className="">
-        <HowItWorks/>
+        <HowItWorks />
       </div>
 
-      
+  
       <div className="">
         <BettingFeatures/>
       </div>
+          {/*
        <div>
         <WantToWin/>
       </div>
@@ -59,32 +64,28 @@ function App() {
       </div>
       <div className="">
         <Footballers/>
-        <div className="container mx-auto">
         <MatchesCard />
+        <BettingCards />
+        <MatchesCard2 />
+        <div className="container mx-auto">
+        <MatchesCard3/>
         </div>
         <Footer/>
-      </div>  
+      </div>   */}
 
-
-
-
-      {/* <div className="container mx-auto">
+      {/* <div className="">
         <Navbar />
-        <MatchesCard />
       </div>
+        <MatchesCard />
 
       <div>
         <BettingCards />
       </div>
 
-      <div className="container mx-auto">
+      <div className="">
         <MatchesCard2 />
         <Footer />
       </div> */}
-
-
-
-
 
       {/* <div className="container mx-auto">
           <Navbar/>

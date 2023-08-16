@@ -1,0 +1,24 @@
+.blur{
+    border-radius: 466.441px;
+    opacity: 0.44;
+    background: #F33DC8;
+    filter: blur(75px);
+    position: absolute;
+    top: 991px;
+    /* width: 300px; */
+    /* height: 300px; */
+    right: 0px;
+    width: 400.441px;
+    height: 400.441px;
+}
+.casino{
+    border-radius: 400px;
+    opacity: 0.7;
+    background: #7A2698;
+    filter: blur(75px);
+    position: absolute;
+    right: 0px;
+    width: 400px;
+    height: 400px;
+    top: 99px;
+}
