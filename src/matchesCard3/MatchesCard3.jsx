@@ -32,7 +32,7 @@ const MatchesCard3 = () => {
       <img src={Vector3} className="absolute 2xl:-left-130 opacity-70 " />
       <img src={circle} className="absolute 2xl:w-120"  />
       <div className="relative">
-      <img src={circle} className="absolute 2xl:w-250 2xl:-right-192 2xl:top-1200"  />
+      <img src={circle} className="absolute 2xl:w-250 2xl:-right-182 2xl:top-1200"  />
       <img src={daimond} className="absolute 2xl:w-250 2xl:-right-150 2xl:top-100"  />
       <img src={daimond2} className="absolute 2xl:w-250 2xl:-left-150 2xl:top-800"  />
       </div>
