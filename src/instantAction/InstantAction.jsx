@@ -25,10 +25,10 @@ const InstantAction = () => {
      <img src={ellipse} alt="" className="w-full absolute top-0 bottom-0 hidden md:block" />
        <div className="md:text-6xl text-2xl text-white font-bold z-50">
          
-       <h1>Instant Action?</h1>
+       <h1 className="action-heading 2xl:text-48   text-41 ">Instant Action?</h1>
        
        </div>
-       <div className="flex md:flex-row flex-col justify-between gap-70 z-50">
+       <div className="flex xl:flex-row flex-col justify-between gap-70 z-50">
        <img src={icon1} alt=""/>
        <img src={icon2} alt=""/>
        <img src={icon3} alt=""/>
@@ -36,6 +36,7 @@ const InstantAction = () => {
        <img src={icon5} alt=""/>
        </div>
      </div>
+     
      </>
   );
 };

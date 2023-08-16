@@ -22,44 +22,39 @@ import InstantAction from "./instantAction/InstantAction";
 function App() {
   const [count, setCount] = useState(0);
 
-    
-
   return (
     <>
-
-
       {/* <Routes>
         <Route path="page1">
 
         </Route>
       </Routes> */}
 
-
-
       <div className="">
         <Navbar />
         <Home />
       </div>
       <div>
-        <InstantAction/>
+        <InstantAction />
       </div>
 
       <div className="">
-        <MatchesBetting/>
+        <MatchesBetting />
       </div>
 
       <div className="">
         <Casino />
       </div>
- 
+
       <div className="">
-        <HowItWorks/>
+        <HowItWorks />
       </div>
 
-      
+  
       <div className="">
         <BettingFeatures/>
       </div>
+          {/*
        <div>
         <WantToWin/>
       </div>
@@ -75,10 +70,7 @@ function App() {
         <MatchesCard3/>
         </div>
         <Footer/>
-      </div>  
-
-
-
+      </div>   */}
 
       {/* <div className="">
         <Navbar />
@@ -93,7 +85,6 @@ function App() {
         <MatchesCard2 />
         <Footer />
       </div> */}
-
 
       {/* <div className="container mx-auto">
           <Navbar/>

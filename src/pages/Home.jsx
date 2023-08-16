@@ -8,8 +8,8 @@ import "../../src/pages/Home.css";
 
 const Home = () => {
   return (
-    <div className="container mx-auto">
-      <div className="container-2 ">
+    <div className="xl:container xl:mx-auto container-xs">
+      <div className="xl:container-2 container-xs ">
         <div className="flex flex-col sm:flex-row sm:mt-0  ">
           <div className="z-10">
             {/* <img src={coverDriveOnlineImage} className="sm:w-700 sm:mt-160 w-350  " /> */}
@@ -39,10 +39,10 @@ const Home = () => {
               {/* <Button/> */}
             </div>
           </div>
-          <div className="z-10">
+          <div className="z-10 flex justify-center">
             <img
               src={sportsPlayers}
-              className=" 2xl:max-w-122 sm:mt-30  sm:max-w-117 mt-30 max-w-101 xl:max-w-119 xl:ml-20  "
+              className=" 2xl:max-w-122 2xl:w-800 sm:mt-30 sm:max-w-117 mt-30 xl:max-w-119 xl:ml-20  xs:w-380 xs:pr-0 "
             />
           </div>
         </div>
