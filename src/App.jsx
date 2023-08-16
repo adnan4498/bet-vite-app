@@ -54,17 +54,25 @@ function App() {
       <div className="">
         <BettingFeatures/>
       </div>
-          {/*
        <div>
         <WantToWin/>
       </div>
+    
+
+ 
       <div className="">
         <Clients/>
       </div>
+
       <div className="">
         <Footballers/>
+        </div>
+        
+      
         <MatchesCard />
+
         <BettingCards />
+        {/*
         <MatchesCard2 />
         <div className="container mx-auto">
         <MatchesCard3/>

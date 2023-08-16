@@ -1,0 +1,9 @@
+.custom-margin{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 20px ;
+    margin-top: 20px ;
+
+    padding-right: 22px !important;
+    padding-left: 22px !important;
+}
