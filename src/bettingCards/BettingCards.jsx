@@ -19,16 +19,16 @@ const BettingCards = () => {
   return (
     <>
       <div className="relative">
-        <div className="2xl:relative 2xl:block hidden">
-        <img src={cirlce} className="absolute 2xl:right-20 2xl:top-800 2xl:w-130" />
+        <div className="2xl:relative 2xl:block ">
+        <img src={cirlce} className="2xl:absolute 2xl:block hidden 2xl:right-20 2xl:top-800 2xl:w-130" />
         </div>
-        <div className="2xl:block hidden">
-          <h2 className="text-white custom-font-family 2xl:text-50 text-center 2xl:mt-150">
+        <div className="2xl:block ">
+          <h2 className="text-white custom-font-family 2xl:text-50 text-center 2xl:mt-150 text-40 mt-50">
             Our Casinos
           </h2>
-          <p className="text-center text-white 2xl:text-20 2xl:mt-15">
+          <p className="text-center text-white 2xl:text-20 2xl:mt-15 text-12 2xl:pt-0 2xl:mb-0 mb-25 pt-10">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. <br></br> Lorem Ipsum has
+            industry. <br className="2xl:block hidden"></br> Lorem Ipsum has
           </p>
         </div>
 
@@ -42,7 +42,7 @@ const BettingCards = () => {
           <img src={card5} className="2xl:block hidden"/>
           <img src={card6} className="2xl:block hidden"/>
           
-          <img src={card1} className="2xl:hidden block custom-margin w-350"/>
+          <img src={card1} className="2xl:hidden block custom-margin w-350 "/>
           <img src={card2} className="2xl:hidden block custom-margin w-350"/>
           <img src={card3} className="2xl:hidden block custom-margin w-350"/>
           <img src={card4} className="2xl:hidden block custom-margin w-350"/>
@@ -50,12 +50,12 @@ const BettingCards = () => {
           <img src={card6} className="2xl:hidden block custom-margin w-350"/>
 
           <div className="casino"/>
-          <img src={Frame} alt="" className="absolute -left-30 -bottom-120" />
+          <img src={Frame} alt="" className="2xl:absolute 2xl:block hidden  -left-30 -bottom-120" />
         </div>
       </div>
 
-      <div className="flex justify-center 2xl:mt-80">
-        <Button className="login-button bg-loginBgColor 2xl:w-135 2xl:h-45 rounded-lg">
+      <div className="flex justify-center 2xl:mt-80 ">
+        <Button className="login-button bg-loginBgColor 2xl:w-135 2xl:h-45 rounded-lg w-300 mx-auto ">
           Show More
         </Button>
       </div>

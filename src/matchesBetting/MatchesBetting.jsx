@@ -37,8 +37,8 @@ const MatchesBetting = () => {
           <div className="text-[#d8d0d0] 2xl:text-16 2xl:mt-20 mt-10 2xl:pr-18 2xl:mb-50 custom-font-family-2 items-center 2xl:text-left text-center 2xl:flex 2xl:flex-row flex flex-col justify-between see-all-matches-hover z-10 text-12 ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Phaselluspharetra <br className="2xl:block hidden"></br> mi ut leo pulvinar laoreet. 
-            <div>
-            <Button className="login-button 2xl:text-14 bg-loginBgColor 2xl:h-47 2xl:w-150  text-9 w-100 h-33 2xl:mt-0 2xl:mb-0 items-center mt-20 mb-20 rounded-xl see-all-matches-hover ">
+            <div className="2xl:w-150 w-full">
+            <Button className="login-button 2xl:text-14 bg-loginBgColor 2xl:h-47 2xl:w-150 w-11/12 text-9 h-33 2xl:mt-0 2xl:mb-0 items-center mt-20 mb-20 rounded-xl see-all-matches-hover ">
               See All Matches
             </Button>
             </div>

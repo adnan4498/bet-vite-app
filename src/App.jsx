@@ -72,8 +72,15 @@ function App() {
         <MatchesCard />
 
         <BettingCards />
-        {/*
+  
         <MatchesCard2 />
+        
+        <div className="2xl:container 2xl:mx-auto">
+        <MatchesCard3/>
+        </div>
+        <Footer/>
+        
+        {/*
         <div className="container mx-auto">
         <MatchesCard3/>
         </div>
