@@ -26,13 +26,13 @@ const Clients = () => {
           className="absolute 2xl:w-80 2xl:right-230 2xl:top-620"
         />
       </div>
-      <div className="clients-div 2xl:mt-300 2xl:mb-150 2xl:flex lg:container lg:mx-auto mt-250  ">
+      <div className="clients-div 2xl:mt-300 2xl:mb-150 2xl:flex lg:flex lg:justify-evenly lg:container lg:mx-auto lg:mt-130 mt-250  ">
         <div>
-          <p className="text-white custom-font-family 2xl:text-70 2xl:leading-80 2xl:mt-40 2xl:text-left text-center text-27 2xl:mb-0 mb-20">
-            What <br className="2xl:block hidden"></br> Our Client's{" "}
-            <br className="2xl:hidden block"></br> say
+          <p className="text-white custom-font-family lg:text-30 lg:text-left 2xl:text-70 2xl:leading-80 2xl:mt-40 2xl:text-left text-center text-27 2xl:mb-0 lg:mb-7 mb-20">
+            What <br className="2xl:block lg:block hidden"></br> Our Client's{" "}
+            <br className="2xl:hidden lg:hidden block"></br> say
           </p>
-          <p className="text-[#C1C1C1] 2xl:mt-30 2xl:pl-7 2xl:leading-31 2xl:block hidden ">
+          <p className="lg:text-[#C1C1C1] 2xl:mt-30 2xl:pl-7 2xl:leading-31 2xl:block lg:block lg:text-8 2xl:text-14 hidden ">
             Lorem Ipsum is simply dummy text of the printing and <br></br>{" "}
             typesetting industry. Lorem Ipsum has been the industry's <br></br>{" "}
             standard dummy text ever since the 1500s, when an <br></br> unknown
@@ -44,7 +44,7 @@ const Clients = () => {
         </div>
 
         <div
-          className="bg-cardDarkBlue 2xl:w-900 2xl:h-455 2xl:ml-70 rounded-3xl z-10"
+          className="bg-cardDarkBlue 2xl:w-900 lg:w-500 2xl:h-455 2xl:ml-70 rounded-3xl z-10"
           style={{ border: "9px solid #342f62" }}
         >
           <div className="flex justify-between">

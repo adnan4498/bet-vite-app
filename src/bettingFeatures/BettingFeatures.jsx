@@ -13,32 +13,32 @@ import yellowDot from "/littleYellowDot.svg";
 const BettingFeatures = () => {
   return (
     <>
-      <div className="2xl:relative 2xl:block hidden">
-        <img src={purpleCircle} className="absolute 2xl:-top-100" />
-        <img src={smallCircle} className="absolute 2xl:right-100 2xl:-top-30" />
-        <img src={halfCircle} className="absolute 2xl:right-0 2xl:top-400" />
-        <img src={purpleSplash} className="absolute 2xl:top-200" />
-        <img src={yellowDot} className="absolute 2xl:left-278 2xl:top-300" />
-        <img src={yellowDot} className="absolute 2xl:left-278 2xl:top-210" />
-        <img src={yellowDot} className="absolute 2xl:left-278 2xl:top-378" />
-        <img src={yellowDot} className="absolute 2xl:left-278 2xl:top-460" />
+      <div className="2xl:relative 2xl:block hidden lg:block lg:relative">
+        <img src={purpleCircle} className="absolute 2xl:-top-100 lg:-top-50 lg:w-90 2xl:w-230" />
+        <img src={smallCircle} className="absolute 2xl:right-100 2xl:-top-30 lg:right-45 lg:-top-61 lg:w-30 2xl:w-55" />
+        <img src={halfCircle} className="absolute 2xl:right-0 2xl:top-400 lg:w-80 lg:top-227 lg:right-0 2xl:w-200" />
+        <img src={purpleSplash} className="absolute 2xl:top-200 2xl:w-500 lg:w-270 lg:top-140" />
+        <img src={yellowDot} className="absolute lg:left-83 lg:top-122 lg:w-10 2xl:w-15 2xl:left-278 2xl:top-300" />
+        <img src={yellowDot} className="absolute lg:left-83 lg:top-176 lg:w-10 2xl:w-15 2xl:left-278 2xl:top-210" />
+        <img src={yellowDot} className="absolute lg:left-83 lg:top-222 lg:w-10 2xl:w-15 2xl:left-278 2xl:top-378" />
+        <img src={yellowDot} className="absolute lg:left-83 lg:top-281 lg:w-10 2xl:w-15 2xl:left-278 2xl:top-460" />
       </div>
 
-      <div className="relative block 2xl:hidden">
+      <div className="relative block 2xl:hidden lg:hidden">
       <img src={yellowDot} className="absolute left-12 top-145 w-13" />
       <img src={yellowDot} className="absolute left-12 top-206 w-13" />
       <img src={yellowDot} className="absolute left-12 top-265 w-13" />
-      <img src={yellowDot} className="absolute left-12 top-362 w-13" />
+      <img src={yellowDot} className="absolute left-12 top-36 w-13" />
       </div>
 
       <div className="container mx-auto">
-        <div className="betting-feature-div 2xl:mt-150 2xl:mb-150 2xl:flex container-2 ">
+        <div className="betting-feature-div 2xl:mt-150 2xl:mb-150 2xl:flex lg:flex lg:justify-evenly container-2 ">
           <div className="flex flex-col">
             <div className="betting-heading 2xl:mt-30 mt-50">
               <h2 className="text-white custom-font-family 2xl:text-60 2xl:mb-0 mb-10 text-27">
                 Our Betting features
               </h2>
-              <p className="custom-font-family-2 2xl:block hidden text-[#C1C1C1] 2xl:text-16 2xl:mt-20 2xl:ml-5 text-14 ">
+              <p className="custom-font-family-2 2xl:block hidden text-[#C1C1C1] 2xl:text-16  2xl:mt-20 2xl:ml-5 text-14 ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Phasellus<br></br>pharetra mi ut leo pulvinar laoreet.
               </p>
@@ -90,7 +90,7 @@ const BettingFeatures = () => {
                   <p className="text-[#000] 2xl:text-22 custom-font-family-3 text-21">
                     Easy Bets
                   </p>
-                  <p className="text-[#000] 2xl:pt-12 custom-font-family-4 2xl:text-16 text-14 ">
+                  <p className="text-[#000] 2xl:pt-12 custom-font-family-4 2xl:text-16 lg:text-13 lg:pr-5 2xl:pr-0 text-14 ">
                     Lorem ipsum dolor sit amet <br></br> consectetur.
                   </p>
                 </div>
@@ -114,7 +114,7 @@ const BettingFeatures = () => {
                   <p className="text-[white] 2xl:text-22 custom-font-family-3 text-21">
                     Easy Bets
                   </p>
-                  <p className="text-[#C1C1C1] 2xl:pt-12 custom-font-family-4 2xl:text-16 text-14 ">
+                  <p className="text-[#C1C1C1] 2xl:pt-12 custom-font-family-4 lg:text-13 lg:pr-5 2xl:pr-0 2xl:text-16 text-14 ">
                     Lorem ipsum dolor sit amet <br></br> consectetur.
                   </p>
                 </div>
@@ -140,7 +140,7 @@ const BettingFeatures = () => {
                   <p className="text-[white] 2xl:text-22 custom-font-family-3 text-21">
                     Easy Bets
                   </p>
-                  <p className="text-[#C1C1C1] 2xl:pt-12 custom-font-family-4 2xl:text-16 text-14 ">
+                  <p className="text-[#C1C1C1] 2xl:pt-12 custom-font-family-4 lg:text-13 lg:pr-5 2xl:pr-0 2xl:text-16 text-14 ">
                     Lorem ipsum dolor sit amet <br></br> consectetur.
                   </p>
                 </div>
@@ -164,7 +164,7 @@ const BettingFeatures = () => {
                   <p className="text-white 2xl:text-22 custom-font-family-3 text-21">
                     Easy Bets
                   </p>
-                  <p className="text-[#C1C1C1]  2xl:pt-12 custom-font-family-4 2xl:text-16 text-14 ">
+                  <p className="text-[#C1C1C1]  2xl:pt-12 custom-font-family-4 lg:text-13 lg:pr-5 2xl:pr-0 2xl:text-16 text-14 ">
                     Lorem ipsum dolor sit amet <br></br> consectetur.
                   </p>
                 </div>
