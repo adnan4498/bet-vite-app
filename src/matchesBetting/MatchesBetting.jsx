@@ -14,40 +14,45 @@ import locationTag from "/locationTag.svg";
 import purpleEclipseBetting from "/purpleEclipseBettig.svg";
 import bettingCircle from "/circleBetting.svg"
 import pinkEclipseBetting from "/pinkEclipseBetting.svg"
+import pink from "/pink-dot-all-match.svg"
 
 const MatchesBetting = () => {
   return (
     <>
-    <div className="relative">
+    <div className="relative ">
       <img
         src={purpleEclipseBetting}
-        className="2xl:absolute xs:hidden 2xl:block 2xl:left-0 2xl:-top-100 2xl:h-670"
+        className="2xl:absolute lg:absolute lg:block xs:hidden 2xl:w-450 lg:w-250 lg:-top-50 2xl:block 2xl:left-0 2xl:-top-100 2xl:h-670"
       />
-      <img src={bettingCircle} className="2xl:absolute xs:hidden 2xl:block 2xl:right-0 2xl:-top-255 2xl:w-170 z-50" />
+      <img src={bettingCircle} className="2xl:absolute lg:absolute lg:block xs:hidden 2xl:block 2xl:right-0 2xl:-top-255 2xl:w-170 lg:right-0 lg:w-100 lg:-top-110 z-50" />
       <div className="-z-1">
-      <img src={pinkEclipseBetting} className="2xl:absolute xs:hidden 2xl:block 2xl:right-0 2xl:-top-250 -z-1" />
+      <img src={pinkEclipseBetting} className="2xl:absolute lg:absolute lg:-right-0 lg:-top-140 2xl:w-600 lg:w-330 lg:block xs:hidden 2xl:block 2xl:right-0 2xl:-top-250 -z-1" />
+      <img src={pink} className="lg:absolute lg:block hidden 2xl:bottom-450 2xl:right-0 2xl:w-550 lg:right-0 lg:bottom-100 lg:w-350 " />
       </div>
 
-      <div className="2xl:container 2xl:mx-auto ">
-        <div className="2xl:container-2 relative">
-          <div className="text-white 2xl:text-60 text-center 2xl:text-left custom-font-family 2xl:mt-150 z-10 text-26 2xl:pb-0 pb-10 ">
+      <div className="2xl:container 2xl:mx-auto 2xl:mt-0 lg:mt-80 ">
+        <div className="relative container-2">
+          <div className="container-3">
+          <div className="text-white 2xl:text-60 lg:pb-0 lg:text-left lg:text-40 text-center 2xl:text-left custom-font-family 2xl:mt-150 z-10 text-26 2xl:pb-0 pb-10 ">
             All Matches For Betting
           </div>
 
-          <div className="text-[#d8d0d0] 2xl:text-16 2xl:mt-20 mt-10 2xl:pr-18 2xl:mb-50 custom-font-family-2 items-center 2xl:text-left text-center 2xl:flex 2xl:flex-row flex flex-col justify-between see-all-matches-hover z-10 text-12 ">
+          <div className="text-[#d8d0d0] lg:mt-0 lg:mb-20 2xl:text-16 2xl:mt-20 mt-10 lg:text-15  2xl:-mr-13 2xl:mb-50 custom-font-family-2 items-center 2xl:text-left text-center 2xl:flex 2xl:flex-row flex lg:flex-row flex-col justify-between see-all-matches-hover z-10 text-12 ">
+            <div className="lg:text-start">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Phaselluspharetra <br className="2xl:block hidden"></br> mi ut leo pulvinar laoreet. 
-            <div className="2xl:w-150 w-full">
-            <Button className="login-button 2xl:text-14 bg-loginBgColor 2xl:h-47 2xl:w-150 w-11/12 text-9 h-33 2xl:mt-0 2xl:mb-0 items-center mt-20 mb-20 rounded-xl see-all-matches-hover ">
+            </div>
+            <div className="2xl:w-150 w-full lg:text-right">
+            <Button className="login-button 2xl:text-14   bg-loginBgColor 2xl:h-47 2xl:w-150 lg:w-100 w-11/12 text-9 h-33 2xl:mt-0 2xl:mb-0 items-center mt-20 mb-20 rounded-xl see-all-matches-hover ">
               See All Matches
             </Button>
             </div>
           </div>
 
-          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 px-20 ">
+          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 px-20 lg:px-0 ">
             <div className="card-div flex 2xl:justify-start w-full">
-              <div className="2xl:flex max-w-full w-full ">
-                <div className="2xl:w-660 w-full h-149 2xl:h-319 bg-cardDarkBlue card-css 2xl:mr-30">
+              <div className="2xl:flex max-w-full w-full lg:flex">
+                <div className="2xl:w-660 w-full h-149 2xl:h-319 lg:mr-15  bg-cardDarkBlue card-css 2xl:mr-30">
                   <div className="flex card-content">
                     <div
                       className="2xl:text-white 2xl:w-660  w-full flex items-center flex-col justify-center 2xl:leading-108 leading-50  custom-font-family-2"
@@ -60,7 +65,7 @@ const MatchesBetting = () => {
                       <h1 className="text-8 2xl:text-17 ">6 Jul 2023</h1>
                     </div>
                     <div
-                      className="2xl:text-white bg-cardBlue rounded-r-lg 2xl:w-500 w-9/12 h-149 2xl:h-319 "
+                      className="2xl:text-white bg-cardBlue rounded-r-lg 2xl:w-430 w-9/12 h-149 2xl:h-319 "
                       // style={{ flex: "63%", color: "black" }}
                     >
                       <div className="justify-center flex 2xl:pl-30 2xl:pr-30 2xl:pt-40">
@@ -119,7 +124,7 @@ const MatchesBetting = () => {
                             </h1>
                           </div>
                         </div>
-                        <div className="2xl:text-white flex 2xl:justify-center 2xl:items-center  2xl:bg-[#060041] bg-[#060041] 2xl:w-110 w-40  2xl:rounded-r-lg rounded-r-lg ">
+                        <div className="2xl:text-white flex 2xl:justify-center 2xl:items-center  2xl:bg-[#060041] bg-[#060041] 2xl:w-110 w-45  2xl:rounded-r-lg rounded-r-lg ">
                           <img
                             className="2xl:w-30 w-17 mx-auto "
                             src={plusSign}
@@ -131,7 +136,7 @@ const MatchesBetting = () => {
                   </div>
                 </div>
 
-                <div className="2xl:w-660 w-full h-149 2xl:h-319 bg-cardDarkBlue card-css 2xl:mr-30 2xl:mt-0 mt-20">
+                <div className="2xl:w-660 w-full h-149 2xl:h-319 bg-cardDarkBlue card-css 2xl:mr-30 2xl:mt-0 lg:mt-0 mt-20">
                   <div className="flex card-content">
                     <div
                       className="2xl:text-white 2xl:w-660  w-full flex items-center flex-col justify-center 2xl:leading-108 leading-50  custom-font-family-2"
@@ -144,7 +149,7 @@ const MatchesBetting = () => {
                       <h1 className="text-8 2xl:text-17 ">6 Jul 2023</h1>
                     </div>
                     <div
-                      className="2xl:text-white bg-cardBlue rounded-r-lg 2xl:w-500 w-9/12 h-149 2xl:h-319 "
+                      className="2xl:text-white bg-cardBlue rounded-r-lg 2xl:w-430 w-9/12 h-149 2xl:h-319 "
                       // style={{ flex: "63%", color: "black" }}
                     >
                       <div className="justify-center flex 2xl:pl-30 2xl:pr-30 2xl:pt-40">
@@ -203,7 +208,7 @@ const MatchesBetting = () => {
                             </h1>
                           </div>
                         </div>
-                        <div className="2xl:text-white flex 2xl:justify-center 2xl:items-center  2xl:bg-[#060041] bg-[#060041] 2xl:w-110 w-40  2xl:rounded-r-lg rounded-r-lg ">
+                        <div className="2xl:text-white flex 2xl:justify-center 2xl:items-center  2xl:bg-[#060041] bg-[#060041] 2xl:w-110 w-45  2xl:rounded-r-lg rounded-r-lg ">
                           <img
                             className="2xl:w-30 w-17 mx-auto "
                             src={plusSign}
@@ -220,10 +225,10 @@ const MatchesBetting = () => {
             </div>
           </div>
 
-          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 px-20 2xl:mt-0 mt-20">
+          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 px-20 lg:px-0 2xl:mt-0 mt-20">
             <div className="card-div flex 2xl:justify-start w-full">
-              <div className="2xl:flex max-w-full w-full ">
-                <div className="2xl:w-660 w-full h-149 2xl:h-319 bg-cardDarkBlue card-css 2xl:mr-30">
+              <div className="2xl:flex max-w-full w-full lg:flex ">
+                <div className="2xl:w-660 w-full h-149 2xl:h-319 bg-cardDarkBlue lg:mr-15 card-css 2xl:mr-30">
                   <div className="flex card-content">
                     <div
                       className="2xl:text-white 2xl:w-660  w-full flex items-center flex-col justify-center 2xl:leading-108 leading-50  custom-font-family-2"
@@ -236,7 +241,7 @@ const MatchesBetting = () => {
                       <h1 className="text-8 2xl:text-17 ">6 Jul 2023</h1>
                     </div>
                     <div
-                      className="2xl:text-white bg-cardBlue rounded-r-lg 2xl:w-500 w-9/12 h-149 2xl:h-319 "
+                      className="2xl:text-white bg-cardBlue rounded-r-lg 2xl:w-430 w-9/12 h-149 2xl:h-319 "
                       // style={{ flex: "63%", color: "black" }}
                     >
                       <div className="justify-center flex 2xl:pl-30 2xl:pr-30 2xl:pt-40">
@@ -295,7 +300,7 @@ const MatchesBetting = () => {
                             </h1>
                           </div>
                         </div>
-                        <div className="2xl:text-white flex 2xl:justify-center 2xl:items-center  2xl:bg-[#060041] bg-[#060041] 2xl:w-110 w-40  2xl:rounded-r-lg rounded-r-lg ">
+                        <div className="2xl:text-white flex 2xl:justify-center 2xl:items-center  2xl:bg-[#060041] bg-[#060041] 2xl:w-110 w-45  2xl:rounded-r-lg rounded-r-lg ">
                           <img
                             className="2xl:w-30 w-17 mx-auto "
                             src={plusSign}
@@ -307,7 +312,7 @@ const MatchesBetting = () => {
                   </div>
                 </div>
 
-                <div className="2xl:w-660 w-full h-149 2xl:h-319 bg-cardDarkBlue card-css 2xl:mr-30 2xl:mt-0 mt-20">
+                <div className="2xl:w-660 w-full h-149 2xl:h-319 bg-cardDarkBlue card-css 2xl:mr-30 lg:mt-0 2xl:mt-0 mt-20">
                   <div className="flex card-content">
                     <div
                       className="2xl:text-white 2xl:w-660  w-full flex items-center flex-col justify-center 2xl:leading-108 leading-50  custom-font-family-2"
@@ -320,7 +325,7 @@ const MatchesBetting = () => {
                       <h1 className="text-8 2xl:text-17 ">6 Jul 2023</h1>
                     </div>
                     <div
-                      className="2xl:text-white bg-cardBlue rounded-r-lg 2xl:w-500 w-9/12 h-149 2xl:h-319 "
+                      className="2xl:text-white bg-cardBlue rounded-r-lg 2xl:w-430 w-9/12 h-149 2xl:h-319 "
                       // style={{ flex: "63%", color: "black" }}
                     >
                       <div className="justify-center flex 2xl:pl-30 2xl:pr-30 2xl:pt-40">
@@ -379,7 +384,7 @@ const MatchesBetting = () => {
                             </h1>
                           </div>
                         </div>
-                        <div className="2xl:text-white flex 2xl:justify-center 2xl:items-center  2xl:bg-[#060041] bg-[#060041] 2xl:w-110 w-40  2xl:rounded-r-lg rounded-r-lg ">
+                        <div className="2xl:text-white flex 2xl:justify-center 2xl:items-center  2xl:bg-[#060041] bg-[#060041] 2xl:w-110 w-45  2xl:rounded-r-lg rounded-r-lg ">
                           <img
                             className="2xl:w-30 w-17 mx-auto "
                             src={plusSign}
@@ -396,6 +401,7 @@ const MatchesBetting = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
       </div>
     </>
