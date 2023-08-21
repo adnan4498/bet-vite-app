@@ -83,7 +83,7 @@ const MatchesBetting = () => {
                             </h1>
                           </div>
                           <div className="2xl:pt-21 pt-8">
-                            <h1 className="2xl:text-[#FFBD00] 2xl:text-2xl custom-font-family">
+                            <h1 className="text-[#FFBD00] 2xl:text-2xl custom-font-family">
                               vs
                             </h1>
                           </div>
@@ -167,7 +167,7 @@ const MatchesBetting = () => {
                             </h1>
                           </div>
                           <div className="2xl:pt-21 pt-8">
-                            <h1 className="2xl:text-[#FFBD00] 2xl:text-2xl custom-font-family">
+                            <h1 className="text-[#FFBD00] 2xl:text-2xl custom-font-family">
                               vs
                             </h1>
                           </div>
@@ -259,7 +259,7 @@ const MatchesBetting = () => {
                             </h1>
                           </div>
                           <div className="2xl:pt-21 pt-8">
-                            <h1 className="2xl:text-[#FFBD00] 2xl:text-2xl custom-font-family">
+                            <h1 className="text-[#FFBD00] 2xl:text-2xl custom-font-family">
                               vs
                             </h1>
                           </div>
@@ -343,7 +343,7 @@ const MatchesBetting = () => {
                             </h1>
                           </div>
                           <div className="2xl:pt-21 pt-8">
-                            <h1 className="2xl:text-[#FFBD00] 2xl:text-2xl custom-font-family">
+                            <h1 className="text-[#FFBD00] 2xl:text-2xl custom-font-family">
                               vs
                             </h1>
                           </div>

@@ -12,18 +12,18 @@ import circle2 from "/homeCircle.svg";
 const Clients = () => {
   return (
     <>
-      <div className="2xl:relative 2xl:block hidden">
+      <div className="2xl:relative 2xl:block lg:block lg:relative hidden">
         <img
           src={purple}
-          className="absolute 2xl:right-0 2xl:-top-100 2xl:w-400"
+          className="absolute 2xl:right-0 lg:right-0 lg:-top-80 lg:w-200 2xl:-top-100 2xl:w-400"
         />
         <img
           src={circle}
-          className="absolute 2xl:w-220 2xl:right-0 2xl:top-450"
+          className="absolute 2xl:w-220  2xl:right-0 2xl:top-450 lg:right-0 lg:w-100 lg:top-170 "
         />
         <img
           src={circle2}
-          className="absolute 2xl:w-80 2xl:right-230 2xl:top-620"
+          className="absolute 2xl:w-80 lg:right-140 lg:top-240 lg:w-35 2xl:right-230 2xl:top-620 "
         />
       </div>
       <div className="clients-div 2xl:mt-300 2xl:mb-150 2xl:flex lg:flex lg:justify-evenly lg:container lg:mx-auto lg:mt-130 mt-250  ">

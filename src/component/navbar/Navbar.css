@@ -74,3 +74,8 @@
       box-shadow: 0px 6px 13px 0px rgba(255, 187, 0, 0.4);
   }
   
+
+
+  .menu-items {
+    transition: height 0.3s ease; /* Adjust the transition duration and easing as needed */
+  }

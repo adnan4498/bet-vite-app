@@ -31,9 +31,9 @@ const WantToWin = () => {
             </p>
           </div>
 
-          <div className="relative lg:relative lg:block">
+          <div className="lg:block">
             <img
-              className="2xl:max-w-xs  absolute lg:absolute 2xl:bottom-0"
+              className="2xl:max-w-xs 2xl:w-full lg:w-180 lg:bottom-10 xl:w-200 xl:-bottom-10 absolute lg:absolute 2xl:bottom-0"
               src={footballerAdobe}
             />
           </div>

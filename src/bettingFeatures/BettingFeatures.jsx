@@ -18,13 +18,13 @@ const BettingFeatures = () => {
         <img src={smallCircle} className="absolute 2xl:right-100 2xl:-top-30 lg:right-45 lg:-top-61 lg:w-30 2xl:w-55" />
         <img src={halfCircle} className="absolute 2xl:right-0 2xl:top-400 lg:w-80 lg:top-227 lg:right-0 2xl:w-200" />
         <img src={purpleSplash} className="absolute 2xl:top-200 2xl:w-500 lg:w-270 lg:top-140" />
-        <img src={yellowDot} className="absolute lg:left-83 lg:top-122 lg:w-10 2xl:w-15 2xl:left-278 2xl:top-300" />
-        <img src={yellowDot} className="absolute lg:left-83 lg:top-176 lg:w-10 2xl:w-15 2xl:left-278 2xl:top-210" />
-        <img src={yellowDot} className="absolute lg:left-83 lg:top-222 lg:w-10 2xl:w-15 2xl:left-278 2xl:top-378" />
-        <img src={yellowDot} className="absolute lg:left-83 lg:top-281 lg:w-10 2xl:w-15 2xl:left-278 2xl:top-460" />
+        <img src={yellowDot} className="absolute lg:left-83 lg:top-122 lg:w-10 xl:left-244 2xl:w-15 2xl:left-271 2xl:top-300" />
+        <img src={yellowDot} className="absolute lg:left-83 lg:top-176 lg:w-10 xl:left-244 2xl:w-15 2xl:left-271 2xl:top-210" />
+        <img src={yellowDot} className="absolute lg:left-83 lg:top-222 lg:w-10 xl:left-244 2xl:w-15 2xl:left-271 2xl:top-378" />
+        <img src={yellowDot} className="absolute lg:left-83 lg:top-281 lg:w-10 xl:left-244 2xl:w-15 2xl:left-271 2xl:top-460" />
       </div>
 
-      <div className="relative block 2xl:hidden lg:hidden">
+      <div className="relative block 2xl:hidden xl:hidden lg:hidden">
       <img src={yellowDot} className="absolute left-12 top-145 w-13" />
       <img src={yellowDot} className="absolute left-12 top-206 w-13" />
       <img src={yellowDot} className="absolute left-12 top-265 w-13" />
@@ -32,7 +32,7 @@ const BettingFeatures = () => {
       </div>
 
       <div className="container mx-auto">
-        <div className="betting-feature-div 2xl:mt-150 2xl:mb-150 2xl:flex lg:flex lg:justify-evenly container-2 ">
+        <div className="betting-feature-div 2xl:px-0 xl:px-50 2xl:mt-150 2xl:mb-150 2xl:flex lg:flex lg:justify-evenly container-2 ">
           <div className="flex flex-col">
             <div className="betting-heading 2xl:mt-30 mt-50">
               <h2 className="text-white custom-font-family 2xl:text-60 2xl:mb-0 mb-10 text-27">
@@ -67,14 +67,14 @@ const BettingFeatures = () => {
               </p>
             </div>
 
-            <Button className="login-button bg-loginBgColor 2xl:w-150 2xl:h-49 2xl:mt-50 2xl:ml-7 rounded-lg  mt-55 ">
+            <Button className="login-button bg-loginBgColor 2xl:w-150 xl:w-130 lg:w-110 2xl:h-49 2xl:mt-50 2xl:ml-7 rounded-lg  mt-55 ">
               Get Started
             </Button>
           </div>
 
           <div className="4-divs-container 2xl:mt-0 mt-50 2xl:mb-0  ">
             <div className="4-divs 2xl:ml-60 mb-15">
-              <div className="betting-first-box 2xl:w-330 2xl:h-290 bg-[#FFBB00] rounded-xl h-180 ">
+              <div className="betting-first-box 2xl:w-330 2xl:h-290 xl:w-230 bg-[#FFBB00] rounded-xl h-180 ">
                 <div className="betting-first-image relative 2xl:mt-0 ">
                   <img
                     src={bettingFirstImgBg}
@@ -123,7 +123,7 @@ const BettingFeatures = () => {
           </div>
 
           <div className="4-divs-container">
-            <div className="4-divs 2xl:ml-30 2xl:mt-80 mb-15">
+            <div className="4-divs 2xl:ml-30 2xl:mt-80 xl:w-230 mb-15">
             <div className="betting-first-box 2xl:w-330 2xl:h-290 bg-[#060041] rounded-xl h-180 ">
                 <div className="betting-first-image relative 2xl:mt-0 ">
                   <img

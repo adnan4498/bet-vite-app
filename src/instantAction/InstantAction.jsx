@@ -32,11 +32,11 @@ const InstantAction = () => {
           </h1>
         </div>
         <div className="flex lg:flex-row flex-col justify-between gap-60 z-50">
-          <img src={icon1} alt="" className="lg:w-100 2xl:w-190"  />
-          <img src={icon2} alt="" className="lg:w-80 2xl:w-160"  />
-          <img src={icon3} alt="" className="lg:w-100 2xl:w-190"  />
-          <img src={icon4} alt="" className="lg:w-80 2xl:w-160"  />
-          <img src={icon5} alt="" className="lg:w-100 2xl:w-190"  />
+          <img src={icon1} alt="" className="xl:w-150 lg:w-100 2xl:w-190"  />
+          <img src={icon2} alt="" className="xl:w-130 lg:w-80 2xl:w-160"  />
+          <img src={icon3} alt="" className="xl:w-150 lg:w-100 2xl:w-190"  />
+          <img src={icon4} alt="" className="xl:w-130 lg:w-80 2xl:w-160"  />
+          <img src={icon5} alt="" className="xl:w-150 lg:w-100 2xl:w-190"  />
         </div>
       </div>
     </>

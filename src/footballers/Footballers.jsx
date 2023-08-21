@@ -12,13 +12,13 @@ import footballerRightPink from "/footballerRightPink.svg"
 const Footballers = () => {
   return (
     <>
-    <div className="2xl:relative 2xl:block hidden">
-      <img src={purple} className="absolute 2xl:pt-100 2xl:w-610 opacity-70" />
-      <img src={footballerPinkLeft} className="absolute 2xl:-top-400 " />
-      <img src={footballerLeftDaimond} className="absolute 2xl:w-90 2xl:left-230"/>
-      <img src={footballerPurple} className="absolute 2xl:w-450 2xl:right-0 opacity-50" />
-      <img src={footballerRightDaimond} className="absolute 2xl:w-160 2xl:right-20 2xl:top-100"/>
-      <img src={footballerRightPink} className="absolute 2xl:w-400 2xl:right-0 2xl:top-300 "/>
+    <div className="2xl:relative 2xl:block lg:block lg:relative hidden">
+      <img src={purple} className="absolute 2xl:pt-100 2xl:w-660 2xl:-left-50 2xl:-top-30 opacity-70 lg:w-400 lg:top-69 lg:-left-120 " />
+      <img src={footballerPinkLeft} className="absolute 2xl:-top-400 2xl:w-500 lg:w-280 lg:-top-230" />
+      <img src={footballerLeftDaimond} className="absolute lg:w-60 lg:left-130 2xl:w-90 2xl:left-230"/>
+      <img src={footballerPurple} className="absolute lg:right-0 lg:w-220 2xl:w-450 2xl:right-0 opacity-50" />
+      <img src={footballerRightDaimond} className="absolute lg:right-5 lg:top-40 lg:w-70 2xl:w-160 2xl:right-20 2xl:top-100"/>
+      <img src={footballerRightPink} className="absolute lg:hidden 2xl:w-400 2xl:right-0 2xl:top-300 "/>
     </div>  
 
     <div>
