@@ -13,6 +13,7 @@ import daimond2 from "/daimond2.svg"
 import daimondBrightness from "/daimondBrightness.svg"
 
 import { Button, Card } from "antd";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -44,7 +45,9 @@ const Navbar = () => {
 
       <div className={`bg-navbarBgColor menu-items ${menuOpen ? "h-80" : "h-60"} sm:h-90 xl:container lg:w-11/12 xl:mx-auto lg:container lg:mx-auto text-white text-center sm:mt-30 flex justify-between items-center sm:rounded-md ${menuOpen ? "h-65" : "h-60"} pl-15 pr-15 relative`}>
         <div className={`sm:pl-60 ${menuOpen ? "mb-20" : "mb-0"} lg:pl-30`}>
+          <Link to="/">
           <img src={navbarLogo} className={`w-150  sm:w-300 lg:w-220 2xl:w-300" alt="Navbar Logo`} />
+          </Link>
         </div>
 
         <div className={` ${menuOpen ? "mb-20" : "mb-0"}  md:pr-0 lg:pr-30`}>
@@ -62,7 +65,9 @@ const Navbar = () => {
               } sm:flex sm:text-sm sm:space-x-4 flex-col mt- sm:flex-row lg:items-center text-xs lg:text-16 xl:text-18`}
             >
               <li className="py-2 2xl:py-7 2xl:px-20 custom-font-family-4 sm:py-0 ">
+                <Link to="/Cricket">
                 Cricket Bet
+                </Link>
               </li>
               <li className="py-2 2xl:py-7 2xl:px-20 custom-font-family-4 sm:py-0 xl:pl-10 lg:pl-10">
                 Football Bet
@@ -104,7 +109,9 @@ const Navbar = () => {
               } sm:flex sm:text-sm sm:space-x-4 flex-col sm:flex-row lg:items-center text-xs lg:text-16 xl:text-18`}
             >
               <li className="py-2 2xl:py-7 pb-15 text-13  text-white 2xl:px-20 custom-font-family-4 sm:py-0 ">
+                <Link to="/Cricket">
                 Cricket Bet
+                </Link>
               </li>
               <li className="py-2 2xl:py-7 pb-15 text-13 2xl:px-20 text-white custom-font-family-4 sm:py-0 xl:pl-10 lg:pl-10">
                 Football Bet

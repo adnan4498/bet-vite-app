@@ -15,6 +15,7 @@ import purpleEclipseBetting from "/purpleEclipseBettig.svg";
 import bettingCircle from "/circleBetting.svg"
 import pinkEclipseBetting from "/pinkEclipseBetting.svg"
 import pink from "/pink-dot-all-match.svg"
+import { Link } from "react-router-dom";
 
 const MatchesBetting = () => {
   return (
@@ -44,7 +45,9 @@ const MatchesBetting = () => {
             </div>
             <div className="2xl:w-150 w-full lg:text-right">
             <Button className="login-button 2xl:text-14   bg-loginBgColor 2xl:h-47 2xl:w-150 lg:w-100 w-11/12 text-9 h-33 2xl:mt-0 2xl:mb-0 items-center mt-20 mb-20 rounded-xl see-all-matches-hover ">
+              <Link to="/matches">
               See All Matches
+              </Link>
             </Button>
             </div>
           </div>

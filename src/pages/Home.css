@@ -34,3 +34,32 @@
     color: black;
     box-shadow: 0px 6px 13px 0px rgba(255, 187, 0, 0.4);
 }
+:where(.css-dev-only-do-not-override-byeoj0).ant-modal .ant-modal-content{
+    border-radius: 20.539px;
+background: #3A126A;
+}
+.input-login{
+    stroke-width: 0.934px;
+stroke: rgba(255, 255, 255, 0.38);
+}
+.input-heading{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 37.343px;
+font-style: normal;
+font-weight: 700;
+line-height: 138%; 
+}
+.blur-img{
+    background-color: #F33DC8;
+opacity: 0.44;
+filter: blur(70.01884460449219px);
+width: 200.009px;
+height: 200.009px;
+border-radius: 100%;;
+flex-shrink: 0;
+position: absolute;
+right: 0;
+top: 30px;
+}

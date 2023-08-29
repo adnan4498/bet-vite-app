@@ -18,23 +18,27 @@ import BettingCards from "./bettingCards/BettingCards";
 import MatchesCard2 from "./matchesCard2/MatchesCard2";
 import MatchesCard3 from "./matchesCard3/MatchesCard3";
 import InstantAction from "./instantAction/InstantAction";
+import AllMatches from "./pages/AllMatches";
+import Login from "./pages/Login";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
-      {/* <Routes>
-        <Route path="page1">
-
+     <Navbar />
+      <Routes>
+      <Route path="/" element={<Home />}>
         </Route>
-      </Routes> */}
+        <Route path="/Cricket" element={<MatchesCard3/>}/>
+        <Route path="/matches" element={<AllMatches/>}/>
+        <Route path="/Login" element={<Login/>}/>
+      </Routes>
 
-      <div className="">
-        <Navbar />
+      {/* <div className="">
+       
         <Home />
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <InstantAction />
       </div>
 
@@ -77,7 +81,7 @@ function App() {
         
         <div className="2xl:container 2xl:mx-auto ">
         <MatchesCard3/>
-        </div>
+        </div> */}
         <Footer/>
         
         {/*
