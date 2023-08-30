@@ -1,36 +1,36 @@
 import { Button, Card } from "antd";
 import React from "react";
 import "../matchesBetting/MatchesBetting.css";
-import indiaIcon from "/indiaIcon.svg";
-import pakistanIcon from "/pakistanIcon.svg";
-import austriliaIcon from "/australiaIcon.svg";
-import englandIcon from "/englandIcon.svg";
-import africanIcon from "/africanIcon.svg";
+import indiaIcon from "@assets/indiaIcon.svg";
+import pakistanIcon from "@assets/pakistanIcon.svg";
+import austriliaIcon from "@assets/australiaIcon.svg";
+import englandIcon from "@assets/englandIcon.svg";
+import africanIcon from "@assets/africanIcon.svg";
 
-import plusSign from "/plusSign.svg";
-import worldCupTag from "/worldCupTag.svg";
-import locationTag from "/locationTag.svg";
-import purpleCircle from "/purpleCircleBettingFeature.svg";
-import Vector1 from "/Vector12.svg";
-import Vector12 from "/Vector13.svg";
-import Vector3 from "/Vector14.svg";
-import Vector4 from "/Vector15.svg";
+import plusSign from "@assets/plusSign.svg";
+import worldCupTag from "@assets/worldCupTag.svg";
+import locationTag from "@assets/locationTag.svg";
+import purpleCircle from "@assets/purpleCircleBettingFeature.svg";
+import Vector1 from "@assets/Vector12.svg";
+import Vector12 from "@assets/Vector13.svg";
+import Vector3 from "@assets/Vector14.svg";
+import Vector4 from "@assets/Vector15.svg";
 
 
 // import plusSign from "/plusSign.svg";
 // import worldCupTag from "/worldCupTag.svg";
 // import locationTag from "/locationTag.svg";
 // import half from "/halfCircle.svg";
-import purpleEclipseBetting from "/purpleEclipseBettig.svg";
+import purpleEclipseBetting from "@assets/purpleEclipseBettig.svg";
 // import Vector1 from "/Vector1.svg";
 // import Vector2 from "/Vector2.svg";
 // import Vector3 from "/Vector3.svg";
 // import Vector4 from "/Vector4.svg";
-import halfCircle from "/howItWorkHalfCircle.svg";
-import circle from "/smallCircleBettingFeature.svg";
-import pink from "/pinkDotBetting.svg"
-import daimond from "/daimond.svg"
-import purpleLeaf from "/purpleleaf.svg"
+import halfCircle from "@assets/howItWorkHalfCircle.svg";
+import circle from "@assets/smallCircleBettingFeature.svg";
+import pink from "@assets/pinkDotBetting.svg"
+import daimond from "@assets/daimond.svg"
+import purpleLeaf from "@assets/purpleleaf.svg"
 
 const MatchesCard2 = () => {
   return (

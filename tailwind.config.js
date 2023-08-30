@@ -5,7 +5,7 @@ export default {
     extend: {
       maxWidth: (() => {
         const maxWidthValues = {};
-        for (let i = 100; i <= 300; i++) {
+        for (let i = 100; i <= 1000; i++) {
           maxWidthValues[i.toString()] = `${i}%`;
         }
         return maxWidthValues;

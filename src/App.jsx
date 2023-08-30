@@ -1,8 +1,8 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+// import reactLogo from "./assets/react.svg";
+// import viteLogo from "/vite.svg";
 import "./App.css";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes  , useLocation} from "react-router-dom";
 import Navbar from "./component/navbar/Navbar";
 import Home from "./pages/Home";
 import Casino from "./casino/Casino";
@@ -20,19 +20,42 @@ import MatchesCard3 from "./matchesCard3/MatchesCard3";
 import InstantAction from "./instantAction/InstantAction";
 import AllMatches from "./pages/AllMatches";
 import Login from "./pages/Login";
+import MatchesCard4 from "./matchesCard4/MatchesCard4";
+import CasinoNav from "./casinoNav/CasinoNav";
+import Stats from "./stats/Stats";
+import OtherGames from "./othergames/OtherGames";
 
 function App() {
 
+  const [isHidden, setIsHidden] = useState(false)
+  const [isTransform, setIsTransform] = useState(false)
+
+  const location = useLocation();
+
+
+
   return (
     <>
-     <Navbar />
+   <div>
+      {location.pathname !== '/dashboard' && (
+        <Navbar setIsHidden={setIsHidden} isHidden={isHidden} setIsTransform={setIsTransform} isTransform={isTransform} />
+      )}
       <Routes>
-      <Route path="/" element={<Home />}>
-        </Route>
-        <Route path="/Cricket" element={<MatchesCard3/>}/>
-        <Route path="/matches" element={<AllMatches/>}/>
-        <Route path="/Login" element={<Login/>}/>
+        <Route path="/" element={<Home setIsHidden={setIsHidden} isHidden={isHidden} setIsTransform={setIsTransform} isTransform={isTransform} />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/Cricket" element={<MatchesCard3 />} />
+        <Route path="/football" element={<MatchesCard4 />} />
+        <Route path="/matches" element={<AllMatches />} />
+        <Route path="/casinonav" element={<CasinoNav />} />
+        <Route path="/othergames" element={<OtherGames />} />
       </Routes>
+      {location.pathname !== '/dashboard' && <Footer />}
+      
+      <Routes>
+        <Route path="/dashboard" element={<Stats />} setIsHidden={setIsHidden} setIsTransform={setIsTransform} />
+      </Routes>
+    </div>
+
 
       {/* <div className="">
        
@@ -82,9 +105,9 @@ function App() {
         <div className="2xl:container 2xl:mx-auto ">
         <MatchesCard3/>
         </div> */}
-        <Footer/>
-        
-        {/*
+      {/* <Footer /> */}
+
+      {/*
         <div className="container mx-auto">
         <MatchesCard3/>
         </div>

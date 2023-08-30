@@ -1,20 +1,20 @@
 import React from "react";
-// import coverDriveOnlineImage from "../../public/cover-drive-online-home.svg";
-// import playUnlimited from "../../public/Play-Unlimited.svg";
-// import bestInvestment from "../../public/Best-Investment.svg";
-// import sportsPlayers from "../../public/sports-players-img.svg";
-import ellipse from "/Ellipse.svg";
+// import coverDriveOnlineImage from "@asseetssrc/assets/cover-drive-online-home.svg";
+// import playUnlimited from "@asseetssrc/assets/Play-Unlimited.svg";
+// import bestInvestment from "@asseetssrc/assets/Best-Investment.svg";
+// import sportsPlayers from "@asseetssrc/assets/sports-players-img.svg";
+import ellipse from "@assets/Ellipse.svg";
 import { Button } from "antd";
-import "../../src/pages/Home.css";
-import icon1 from "/group1.svg";
-import icon2 from "/group2.svg";
-import icon3 from "/group3.svg";
-import icon4 from "/group4.svg";
-import icon5 from "/group5.svg";
+import "../pages/Home.css";
+import icon1 from "@assets/group1.svg";
+import icon2 from "@assets/group2.svg";
+import icon3 from "@assets/group3.svg";
+import icon4 from "@assets/group4.svg";
+import icon5 from "@assets/group5.svg";
 
-// import icon2 from '../../public/Group128.svg'
-// import icon3 from '../../public/Group126.svg'
-// import icon4 from '../../public/Group127.svg'
+// import icon2 from '@asseetssrc/assets/Group128.svg'
+// import icon3 from '@asseetssrc/assets/Group126.svg'
+// import icon4 from '@asseetssrc/assets/Group127.svg'
 
 const InstantAction = () => {
   return (

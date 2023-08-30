@@ -1,9 +1,9 @@
 import React from "react";
-import ovalBg from "/wantToWinOvalBg.svg";
+import ovalBg from "@assets/wantToWinOvalBg.svg";
 import "../wantToWin/WantToWin.css";
-import msDhoniImg from "/msDhoniImg.svg";
-import msDhoniBgRemoved from "/msDhonibgRemoved.png";
-import footballerAdobe from "/footballerAdobe.png";
+import msDhoniImg from "@assets/msDhoniImg.svg";
+import msDhoniBgRemoved from "@assets/msDhonibgRemoved.png";
+import footballerAdobe from "@assets/footballerAdobe.png";
 
 const borderStyle = {
   borderRadius: "50%",

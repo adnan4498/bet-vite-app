@@ -79,3 +79,8 @@
   .menu-items {
     transition: height 0.3s ease; /* Adjust the transition duration and easing as needed */
   }
+
+
+  .transform-class-out{
+    transition-duration: 1s; /* Change this to the desired duration, e.g., 3 seconds */
+}

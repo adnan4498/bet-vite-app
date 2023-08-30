@@ -1,20 +1,20 @@
 import { Button, Card } from "antd";
 import React from "react";
 import "../matchesBetting/MatchesBetting.css";
-import indiaIcon from "/indiaIcon.svg";
-import pakistanIcon from "/pakistanIcon.svg";
-import austriliaIcon from "/australiaIcon.svg";
-import englandIcon from "/englandIcon.svg";
-import africanIcon from "/africanIcon.svg";
+import indiaIcon from "@assets/indiaIcon.svg";
+import pakistanIcon from "@assets/pakistanIcon.svg";
+import austriliaIcon from "@assets/australiaIcon.svg";
+import englandIcon from "@assets/englandIcon.svg";
+import africanIcon from "@assets/africanIcon.svg";
 
-import plusSign from "/plusSign.svg";
-import worldCupTag from "/worldCupTag.svg";
-import locationTag from "/locationTag.svg";
+import plusSign from "@assets/plusSign.svg";
+import worldCupTag from "@assets/worldCupTag.svg";
+import locationTag from "@assets/locationTag.svg";
 
-import purpleEclipseBetting from "/purpleEclipseBettig.svg";
-import bettingCircle from "/circleBetting.svg"
-import pinkEclipseBetting from "/pinkEclipseBetting.svg"
-import pink from "/pink-dot-all-match.svg"
+import purpleEclipseBetting from "@assets/purpleEclipseBettig.svg";
+import bettingCircle from "@assets/circleBetting.svg"
+import pinkEclipseBetting from "@assets/pinkEclipseBetting.svg"
+import pink from "@assets/pink-dot-all-match.svg"
 import { Link } from "react-router-dom";
 
 const MatchesBetting = () => {

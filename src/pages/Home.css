@@ -63,3 +63,18 @@ position: absolute;
 right: 0;
 top: 30px;
 }
+
+
+.transform-class {
+    transform: translate(-17px, -216px);
+    width: 225px !important;
+    transition-duration: 0.3s; /* Change this to the desired duration, e.g., 3 seconds */
+    transition-timing-function: ease-in-out;
+}
+
+
+
+.transform-class-out{
+    transition-duration: 0.5s; /* Change this to the desired duration, e.g., 3 seconds */
+    transition-timing-function: ease-in-out;
+}

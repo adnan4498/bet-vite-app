@@ -1,14 +1,14 @@
 import React from "react";
 import "../howItWorks/HowItWorks.css";
 
-import howItWorksbg from "/howItWorksbg.svg";
-import quantity from "/quantity.svg";
-import sports from "/sports.svg";
-import dance from "/dance.svg";
-import sportsBlueBg from "/sportsBlueBg.svg";
-import line from "/howItWorkLine.svg";
-import circle from "/howItWorkSmallCircle.svg";
-import halfCircle from "/howItWorkHalfCircle.svg";
+import howItWorksbg from "@assets/howItWorksbg.svg";
+import quantity from "@assets/quantity.svg";
+import sports from "@assets/sports.svg";
+import dance from "@assets/dance.svg";
+import sportsBlueBg from "@assets/sportsBlueBg.svg";
+import line from "@assets/howItWorkLine.svg";
+import circle from "@assets/howItWorkSmallCircle.svg";
+import halfCircle from "@assets/howItWorkHalfCircle.svg";
 
 const divStyle = {
   backgroundImage: `url(${howItWorksbg})`,

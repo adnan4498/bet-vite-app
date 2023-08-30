@@ -1,0 +1,13 @@
+input.ant-input.css-dev-only-do-not-override-byeoj0.lg\:w-450.lg\:h-50.rounded-2xl{
+    background-color: red !important;
+}
+
+.rounded-top-left {
+    border-top-left-radius: 2rem; /* Adjust the value as needed */
+    border-bottom-left-radius: 0;
+  }
+
+
+  .active-tab {
+    border-bottom: 2px solid white;
+  }  

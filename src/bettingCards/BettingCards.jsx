@@ -5,15 +5,15 @@ import "../bettingCards/BettingCards.css"
 import { Button, Card } from "antd";
 
 
-import card1 from "/card1.svg";
-import card2 from "/card2.svg";
-import card3 from "/card3.svg";
-import card4 from "/card4.svg";
-import card5 from "/card5.svg";
-import card6 from "/card6.svg";
-import Frame from '/Frame.svg'
+import card1 from "@assets/card1.svg";
+import card2 from "@assets/card2.svg";
+import card3 from "@assets/card3.svg";
+import card4 from "@assets/card4.svg";
+import card5 from "@assets/card5.svg";
+import card6 from "@assets/card6.svg";
+import Frame from '@assets/Frame.svg'
 
-import cirlce from "/smallCircleBettingFeature.svg"
+import cirlce from "@assets/smallCircleBettingFeature.svg"
 
 const BettingCards = () => {
   return (

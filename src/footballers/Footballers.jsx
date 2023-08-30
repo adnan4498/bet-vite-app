@@ -1,13 +1,13 @@
 import React from "react";
 import "../footballers/Footballers.css";
 
-import messiImg from "/messiImg.svg";
-import purple from "/footballersSplash.svg";
-import footballerPurple from "/footballerRightPurple.svg"
-import footballerPinkLeft from "/footballerPinkLeft.svg"
-import footballerLeftDaimond from "/footballerLeftDaimond.svg"
-import footballerRightDaimond from "/footballerRightDaimond.svg"
-import footballerRightPink from "/footballerRightPink.svg"
+import messiImg from "@assets/messiImg.svg";
+import purple from "@assets/footballersSplash.svg";
+import footballerPurple from "@assets/footballerRightPurple.svg"
+import footballerPinkLeft from "@assets/footballerPinkLeft.svg"
+import footballerLeftDaimond from "@assets/footballerLeftDaimond.svg"
+import footballerRightDaimond from "@assets/footballerRightDaimond.svg"
+import footballerRightPink from "@assets/footballerRightPink.svg"
 
 const Footballers = () => {
   return (

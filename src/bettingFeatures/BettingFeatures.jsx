@@ -1,14 +1,14 @@
 import React from "react";
 import "../bettingFeatures/BettingFeatures.css";
-import bettingFirstImgBg from "/betting-first-img-bg.svg";
-import bettingFirstImg from "/betting-first-img.svg";
+import bettingFirstImgBg from "@assets/betting-first-img-bg.svg";
+import bettingFirstImg from "@assets/betting-first-img.svg";
 import { Button } from "antd";
 
-import purpleCircle from "/purpleCircleBettingFeature.svg";
-import smallCircle from "/smallCircleBettingFeature.svg";
-import halfCircle from "/halfPurpleCircleBettingFeature.svg";
-import purpleSplash from "/purpleSplashBettingFeature.svg";
-import yellowDot from "/littleYellowDot.svg";
+import purpleCircle from "@assets/purpleCircleBettingFeature.svg";
+import smallCircle from "@assets/smallCircleBettingFeature.svg";
+import halfCircle from "@assets/halfPurpleCircleBettingFeature.svg";
+import purpleSplash from "@assets/purpleSplashBettingFeature.svg";
+import yellowDot from "@assets/littleYellowDot.svg";
 
 const BettingFeatures = () => {
   return (

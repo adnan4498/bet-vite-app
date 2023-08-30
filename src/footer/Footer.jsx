@@ -1,12 +1,12 @@
 import React from "react";
 import "../footer/Footer.css";
-import footerBg from "/footerPurple.svg";
-import leftDaimond from "/footballerLeftDaimond.svg";
-import circle from "/footerCircle.svg";
-import circle2 from "/smallCircleBettingFeature.svg";
+import footerBg from "@assets/footerPurple.svg";
+import leftDaimond from "@assets/footballerLeftDaimond.svg";
+import circle from "@assets/footerCircle.svg";
+import circle2 from "@assets/smallCircleBettingFeature.svg";
 
-import socialIcons from "/socialIcons.svg";
-import logo from "/cover-drive-online-home.svg";
+import socialIcons from "@assets/socialIcons.svg";
+import logo from "@assets/cover-drive-online-home.svg";
 
 import { Input, Button } from "antd";
 
