@@ -69,7 +69,7 @@ const MatchesCard = () => {
             </div>
           </div> */}
 
-          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 px-20 lg:px-0 ">
+          <div className="text-white 2xl:mb-30 w-full 2xl:px-0  lg:px-0 ">
             <div className="card-div flex 2xl:justify-start w-full">
               <div className="2xl:flex max-w-full w-full lg:flex">
                 <div className="2xl:w-660 w-full h-149 2xl:h-319 lg:mr-15  bg-cardDarkBlue card-css 2xl:mr-30">
@@ -247,7 +247,7 @@ const MatchesCard = () => {
             
           </div>
 
-          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 px-20 lg:px-0 2xl:mt-0 mt-20">
+          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 lg:px-0 2xl:mt-0 mt-20">
             <div className="card-div flex 2xl:justify-start w-full">
               <div className="2xl:flex max-w-full w-full lg:flex ">
                 <div className="2xl:w-660 w-full h-149 2xl:h-319 bg-cardDarkBlue lg:mr-15 card-css 2xl:mr-30">
@@ -450,7 +450,7 @@ const MatchesCard = () => {
             </div>
           </div> */}
 
-          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 px-20 lg:px-0 ">
+          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 lg:px-0 ">
             <div className="card-div flex 2xl:justify-start w-full">
               <div className="2xl:flex max-w-full w-full lg:flex">
                 <div className="2xl:w-660 w-full h-149 2xl:h-319 lg:mr-15  bg-cardDarkBlue card-css 2xl:mr-30">
@@ -626,7 +626,7 @@ const MatchesCard = () => {
             </div>
           </div>
 
-          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 px-20 lg:px-0 2xl:mt-0 mt-20">
+          <div className="text-white 2xl:mb-30 w-full 2xl:px-0  lg:px-0 2xl:mt-0 mt-20">
             <div className="card-div flex 2xl:justify-start w-full">
               <div className="2xl:flex max-w-full w-full lg:flex ">
                 <div className="2xl:w-660 w-full h-149 2xl:h-319 bg-cardDarkBlue lg:mr-15 card-css 2xl:mr-30">
@@ -829,7 +829,7 @@ const MatchesCard = () => {
             </div>
           </div> */}
 
-          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 px-20 lg:px-0 ">
+          <div className="text-white 2xl:mb-30 w-full 2xl:px-0  lg:px-0 ">
             <div className="card-div flex 2xl:justify-start w-full">
               <div className="2xl:flex max-w-full w-full lg:flex">
                 <div className="2xl:w-660 w-full h-149 2xl:h-319 lg:mr-15  bg-cardDarkBlue card-css 2xl:mr-30">
@@ -1005,7 +1005,7 @@ const MatchesCard = () => {
             </div>
           </div>
 
-          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 px-20 lg:px-0 2xl:mt-0 mt-20">
+          <div className="text-white 2xl:mb-30 w-full 2xl:px-0  lg:px-0 2xl:mt-0 mt-20">
             <div className="card-div flex 2xl:justify-start w-full">
               <div className="2xl:flex max-w-full w-full lg:flex ">
                 <div className="2xl:w-660 w-full h-149 2xl:h-319 bg-cardDarkBlue lg:mr-15 card-css 2xl:mr-30">
@@ -1211,7 +1211,7 @@ const MatchesCard = () => {
             </div>
           </div> */}
 
-          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 px-20 ">
+          <div className="text-white 2xl:mb-30 w-full 2xl:px-0  ">
             <div className="card-div flex 2xl:justify-start w-full">
               <div className="2xl:flex max-w-full w-full ">
                 <div className="2xl:w-660 w-full h-149 2xl:h-319 bg-cardDarkBlue card-css 2xl:mr-30">
@@ -1387,7 +1387,7 @@ const MatchesCard = () => {
             </div>
           </div>
 
-          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 px-20 2xl:mt-0 mt-20">
+          <div className="text-white 2xl:mb-30 w-full 2xl:px-0  2xl:mt-0 mt-20">
             <div className="card-div flex 2xl:justify-start w-full">
               <div className="2xl:flex max-w-full w-full ">
                 <div className="2xl:w-660 w-full h-149 2xl:h-319 bg-cardDarkBlue card-css 2xl:mr-30">
@@ -1570,7 +1570,7 @@ const MatchesCard = () => {
           </div>
 
           <h1 className="text-white text-30 text-center ">Football Matches </h1>
-          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 px-20 2xl:mt-0 mt-20 mb-20">
+          <div className="text-white 2xl:mb-30 w-full 2xl:px-0  2xl:mt-0 mt-20 mb-20">
             <div className="card-div flex 2xl:justify-start w-full">
               <div className="2xl:flex max-w-full w-full ">
                 <div className="2xl:w-660 w-full h-149 2xl:h-319 bg-cardDarkBlue card-css 2xl:mr-30">
@@ -1765,7 +1765,7 @@ const MatchesCard = () => {
             </div>
           </div> */}
 
-          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 px-20 ">
+          <div className="text-white 2xl:mb-30 w-full 2xl:px-0  ">
             <div className="card-div flex 2xl:justify-start w-full">
               <div className="2xl:flex max-w-full w-full ">
                 <div className="2xl:w-660 w-full h-149 2xl:h-319 bg-cardDarkBlue card-css 2xl:mr-30">
@@ -1948,7 +1948,7 @@ const MatchesCard = () => {
 
           <h1 className="text-white text-30 text-center mt-F">Boxing Matches </h1>
 
-          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 px-20 2xl:mt-0 mt-20">
+          <div className="text-white 2xl:mb-30 w-full 2xl:px-0  2xl:mt-0 mt-20">
             <div className="card-div flex 2xl:justify-start w-full">
               <div className="2xl:flex max-w-full w-full ">
                 <div className="2xl:w-660 w-full h-149 2xl:h-319 bg-cardDarkBlue card-css 2xl:mr-30">
@@ -2123,7 +2123,7 @@ const MatchesCard = () => {
               <div className=""></div>
             </div>
           </div>
-          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 px-20 2xl:mt-0 mt-20">
+          <div className="text-white 2xl:mb-30 w-full 2xl:px-0 2xl:mt-0 mt-20">
             <div className="card-div flex 2xl:justify-start w-full">
               <div className="2xl:flex max-w-full w-full ">
                 <div className="2xl:w-660 w-full h-149 2xl:h-319 bg-cardDarkBlue card-css 2xl:mr-30">

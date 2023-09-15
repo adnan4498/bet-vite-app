@@ -37,22 +37,22 @@ function App() {
   return (
     <>
    <div>
-      {location.pathname !== '/dashboard' && (
+      {location.pathname !== '/Casino/dashboard' && (
         <Navbar setIsHidden={setIsHidden} isHidden={isHidden} setIsTransform={setIsTransform} isTransform={isTransform} />
       )}
       <Routes>
-        <Route path="/" element={<Home setIsHidden={setIsHidden} isHidden={isHidden} setIsTransform={setIsTransform} isTransform={isTransform} />} />
-        <Route path="/Login" element={<Login />} />
-        <Route path="/Cricket" element={<MatchesCard3 />} />
-        <Route path="/football" element={<MatchesCard4 />} />
-        <Route path="/matches" element={<AllMatches />} />
-        <Route path="/casinonav" element={<CasinoNav />} />
-        <Route path="/othergames" element={<OtherGames />} />
+        <Route path="/Casino" element={<Home setIsHidden={setIsHidden} isHidden={isHidden} setIsTransform={setIsTransform} isTransform={isTransform} />} />
+        <Route path="/Casino/Login" element={<Login />} />
+        <Route path="/Casino/Cricket" element={<MatchesCard3 />} />
+        <Route path="/Casino/football" element={<MatchesCard4 />} />
+        <Route path="/Casino/matches" element={<AllMatches />} />
+        <Route path="/Casino/casinonav" element={<CasinoNav />} />
+        <Route path="/Casino/othergames" element={<OtherGames />} />
       </Routes>
-      {location.pathname !== '/dashboard' && <Footer />}
+      {location.pathname !== '/Casino/dashboard' && <Footer />}
       
       <Routes>
-        <Route path="/dashboard" element={<Stats />} setIsHidden={setIsHidden} setIsTransform={setIsTransform} />
+        <Route path="/Casino/dashboard" element={<Stats />} setIsHidden={setIsHidden} setIsTransform={setIsTransform} />
       </Routes>
     </div>
 

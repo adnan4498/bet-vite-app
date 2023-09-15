@@ -28,7 +28,7 @@ const BettingFeatures = () => {
       <img src={yellowDot} className="absolute left-12 top-145 w-13" />
       <img src={yellowDot} className="absolute left-12 top-206 w-13" />
       <img src={yellowDot} className="absolute left-12 top-265 w-13" />
-      <img src={yellowDot} className="absolute left-12 top-36 w-13" />
+      <img src={yellowDot} className="absolute left-13 top-363 w-13" />
       </div>
 
       <div className="container mx-auto">

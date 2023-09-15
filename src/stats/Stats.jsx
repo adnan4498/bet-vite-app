@@ -28,7 +28,7 @@ const Stats = ({ setIsHidden, setIsTransform }) => {
 
   return (
     <div>
-      <div className="navbar-div lg:flex lg:items-center mt-30 lg:mb-0 ">
+      <div className="navbar-div lg:flex lg:w-max xl:w-1900 lg:items-center mt-30 lg:mb-0 ">
         <div className="lg:w-4/12 w-250 lg:ml-50 lg:block mx-auto lg:mb-0 mb-20">
           <Link
             to="/"
@@ -37,7 +37,7 @@ const Stats = ({ setIsHidden, setIsTransform }) => {
             }}
           >
             {" "}
-            <img src={logo} className="2xl:w-420" />{" "}
+            <img src={logo} className="2xl:w-420 lg:w-700 xl:w-510" />{" "}
           </Link>
         </div>
 
@@ -78,40 +78,49 @@ const Stats = ({ setIsHidden, setIsTransform }) => {
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="table-stats-div lg:flex lg:mt-60">
-        <div className="lg:mt-120 mt-50 lg:ml-50 w-6/12 ">
-          <div className="flex lg:items-center lg:justify-between cursor-pointer">
-            <div>
-              <p className="text-white lg:text-30">Other</p>
+
+        <div className="lg:hidden flex mt-20 w-full">
+            <div className="w-full">
+              <Input className="lg:w-450 w-12/12 text-white lg:h-60 rounded-2xl bg-[#b9a2df] rounded-r-none" />
             </div>
-            <div className="flex items-center">
-              <div>
-                <img
-                  src={rightArrow}
-                  className="lg:w-12 w-7 lg:mr-40 lg:ml-0 ml-12"
-                />
-              </div>
+            <div className="bg-white lg:w-70 w-50 lg:h-60 flex  items-center justify-center rounded-r-2xl">
+              <img src={searchIcon} className="" />
             </div>
           </div>
-          <div className="flex lg:items-center lg:justify-between cursor-pointer lg:mt-18 mt-10">
+
+      </div>
+
+      <div className="table-stats-div lg:flex lg:mt-60 lg:text-lg text-xs">
+        <div className="lg:mt-120 mt-50 lg:ml-50 w-6/12 ">
+          <div className="flex lg:items-center xl:justify-between  cursor-pointer">
             <div>
-              <p className="text-white lg:text-30">All Sports</p>
+              <p className="text-white lg:text-25 2xl:text-30  text-xl">Other</p>
             </div>
-            <div className="flex items-center">
-              <div>
+            <div className="other-arrow-div flex items-center 2xl:ml-0 xl:ml-120 ml-35 lg:ml-104 ">
                 <img
                   src={rightArrow}
-                  className="lg:w-12 w-7 lg:mr-40 lg:ml-0 ml-12"
+                  className="other-arrow-div lg:w-12 w-7 lg:mr-40 lg:ml-0 ml-50"
+                />
+            </div>
+          </div>
+          <div className="flex lg:items-center xl:justify-between cursor-pointer lg:mt-18 mt-10">
+            <div>
+              <p className="text-white lg:text-25 2xl:text-30 text-xl 2xl:w-full lg:w-140 xl:mr-74 xl:w-115">All Sports</p>
+            </div>
+            <div className="flex items-center">
+              <div className="xl:ml-0 lg:ml-35 lg:pr-11 2xl:pr-0">
+                <img
+                  src={rightArrow}
+                  className="lg:w-12 w-7 lg:mr-40 lg:ml-0 ml-50"
                 />
               </div>
             </div>
           </div>
         </div>
 
-        <div className="lg:mt-0 mt-50  lg:overflow-x-visible overflow-x-auto ">
-          <div className="bg-pink-400 flex w-fit  lg:items-center lg:text-xl lg:w-1586 lg:gap-30 gap-20 lg:pl-60 lg:h-70 lg:rounded-top-left">
+        <div className="lg:mt-0 mt-50  lg:overflow-x-visible overflow-x-auto xl:ml-143 2xl:ml-24 ">
+          <div className="bg-pink-400 flex w-fit  lg:items-center lg:text-xl lg:w-1480 lg:gap-30 gap-20 lg:pl-60 lg:h-70 lg:rounded-top-left lg:pt-0 pt-10">
             <p
               className={
                 activeTab === 0
@@ -636,47 +645,47 @@ const Stats = ({ setIsHidden, setIsTransform }) => {
         </div>
       </div>
 
-      <div className="all-games-div lg:bg-white w-10/12 lg:ml-317 lg:pt-50 lg:pl-60 lg:pb-30">
+      <div className="all-games-div lg:bg-white xl:w-1480 lg:w-1480 xl:ml-433 2xl:ml-423 lg:ml-276 lg:pt-50 lg:pl-60 lg:pb-30 ">
         <div>
-          <p className="lg:font-bold lg:text-2xl"> All Games</p>
+          <p className="lg:font-bold lg:text-2xl lg:text-black text-white lg:text-left text-center text-xl lg:my-0 my-20 "> All Games</p>
         </div>
 
-        <div className="lg:flex lg:pt-35 ">
+        <div className="lg:flex lg:pt-35 lg:mx-0 mx-15 lg:my-0 ">
           <div>
             <img src={img1} />
           </div>
           <div>
-            <img src={img2} />
+            <img src={img2} className="lg:py-0 py-15" />
           </div>
           <div>
             <img src={img3} />
           </div>
           <div>
-            <img src={img4} />
+            <img src={img4} className="lg:py-0 py-15" />
           </div>
         </div>
 
-        <div className="lg:flex gap-5 lg:mt-40">
+        <div className="lg:flex gap-5 lg:mt-40 mt-15">
           <div>
-            <img src={img5} />
+            <img src={img5} className="mx-auto " />
           </div>
           <div>
-            <img src={img6} />
+            <img src={img6} className="mx-auto lg:pt-0 pt-15" />
           </div>
           <div>
-            <img src={img7} />
+            <img src={img7} className="mx-auto lg:pt-0 pt-15"/>
           </div>
           <div>
-            <img src={img8} />
+            <img src={img8} className="mx-auto lg:pt-0 pt-15" />
           </div>
           <div>
-            <img src={img7} />
+            <img src={img7} className="mx-auto lg:pt-0 pt-15" />
           </div>
           <div>
-            <img src={img5} />
+            <img src={img5} className="mx-auto lg:pt-0 pt-15" />
           </div>
           <div>
-            <img src={img8} />
+            <img src={img8} className="mx-auto lg:pt-0 pt-15" />
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ import daimondBrightness from "@assets/daimondBrightness.svg";
 import { Button, Card } from "antd";
 import { Link } from "react-router-dom";
 
-const Navbar = ({isHidden , setIsHidden , isTransform , setIsTransform}) => {
+const Navbar = ({ isHidden, setIsHidden, isTransform, setIsTransform }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -82,13 +82,31 @@ const Navbar = ({isHidden , setIsHidden , isTransform , setIsTransform}) => {
           menuOpen ? "h-65" : "h-60"
         } pl-15 pr-15 relative`}
       >
-        <div className={`sm:pl-60 ${menuOpen ? "mb-20" : "mb-0"} lg:pl-30`}>
-          <Link to="/">
-            <img
-              src={navbarLogo}
-              className={`${isHidden ? "opacity-0 duration-500 w-150 sm:w-300 lg:w-220 2xl:w-300" :"duration-500 w-150 sm:w-300 lg:w-220 2xl:w-300"}`}
-            />
-          </Link>
+        <div className="lg:block hidden">
+          <div className={`sm:pl-60 ${menuOpen ? "mb-20" : "mb-0"} lg:pl-30`}>
+            <Link to="/Casino/Casino">
+              <img
+                src={navbarLogo}
+                className={`${
+                  isHidden
+                    ? "opacity-0 duration-500 w-150 sm:w-300 lg:w-220 2xl:w-300"
+                    : "duration-500 w-150 sm:w-300 lg:w-220 2xl:w-300"
+                }`}
+              />
+            </Link>
+          </div>
+        </div>
+
+        <div className="lg:hidden block">
+          <div className={`sm:pl-60 ${menuOpen ? "mb-20" : "mb-0"} lg:pl-30`}>
+            <Link to="/Casino/Casino">
+              <img
+                src={navbarLogo}
+                className={
+                    "w-150 sm:w-300 lg:w-220 2xl:w-300"               }
+              />
+            </Link>
+          </div>
         </div>
 
         <div className={` ${menuOpen ? "mb-20" : "mb-0"}  md:pr-0 lg:pr-30`}>
@@ -105,15 +123,21 @@ const Navbar = ({isHidden , setIsHidden , isTransform , setIsTransform}) => {
                 menuOpen ? "flex sm:flex " : "hidden"
               } sm:flex sm:text-sm sm:space-x-4 flex-col mt- sm:flex-row lg:items-center text-xs lg:text-16 xl:text-18`}
             >
-            <li className={`py-2 2xl:py-7 2xl:px-20 custom-font-family-4 sm:py-0 ${isHidden ? 'opacity-100 transition-opacity duration-500' : 'opacity-0 transition-opacity duration-500'}`}>
-              <Link to="/Cricket">Home</Link>
-            </li>
-      
+              <li
+                className={`py-2 2xl:py-7 2xl:px-20 custom-font-family-4 sm:py-0 ${
+                  isHidden
+                    ? "opacity-100 transition-opacity duration-500"
+                    : "opacity-0 transition-opacity duration-500"
+                }`}
+              >
+                <Link to="/Casino/Cricket">Home</Link>
+              </li>
+
               <li className="py-2 2xl:py-7 2xl:px-20 custom-font-family-4 sm:py-0 ">
-                <Link to="/Cricket">Cricket Bet</Link>
+                <Link to="/Casino/Cricket">Cricket Bet</Link>
               </li>
               <li className="py-2 2xl:py-7 2xl:px-20 custom-font-family-4 sm:py-0 xl:pl-10 lg:pl-10 cursor-pointer">
-                <Link to="/football">Football Bet</Link>
+                <Link to="/Casino/football">Football Bet</Link>
               </li>
             </ul>
             <ul
@@ -122,15 +146,22 @@ const Navbar = ({isHidden , setIsHidden , isTransform , setIsTransform}) => {
               } sm:flex sm:text-sm sm:space-x-4 flex-col sm:flex-row text-xs lg:items-center lg:text-16 xl:text-18 xl:pl-10 lg:pl-10`}
             >
               <li className="py-2 2xl:py-7 2xl:px-20 custom-font-family-4 sm:py-0 ">
-                <Link to="/casinonav">Casino</Link>
+                <Link to="/Casino/casinonav">Casino</Link>
               </li>
               <li className="py-2 2xl:py-7 2xl:px-20 custom-font-family-4 sm:py-0 xl:pl-10 xl:pr-10 lg:pl-10 lg:pr-10">
-              {isHidden ? <p className="">Testimonials</p> :  <Link to="/othergames"> <p> Other Games </p></Link>}     
+                {isHidden ? (
+                  <p className="">Testimonials</p>
+                ) : (
+                  <Link to="/Casino/othergames">
+                    {" "}
+                    <p> Other Games </p>
+                  </Link>
+                )}
               </li>
-              <Link to="/">
-              <Button className="login-button 2xl:w-100 bg-loginBgColor custom-font-family ">
-                Log Out
-              </Button>
+              <Link to="/Casino">
+                <Button className="login-button 2xl:w-100 bg-loginBgColor custom-font-family ">
+                  Log Out
+                </Button>
               </Link>
             </ul>
           </div>
@@ -153,7 +184,7 @@ const Navbar = ({isHidden , setIsHidden , isTransform , setIsTransform}) => {
               } sm:flex sm:text-sm sm:space-x-4 flex-col sm:flex-row lg:items-center text-xs lg:text-16 xl:text-18`}
             >
               <li className="py-2 2xl:py-7 pb-15 text-13  text-white 2xl:px-20 custom-font-family-4 sm:py-0 ">
-                <Link to="/Cricket">Cricket Bet</Link>
+                <Link to="/Casino/Cricket">Cricket Bet</Link>
               </li>
               <li className="py-2 2xl:py-7 pb-15 text-13 2xl:px-20 text-white custom-font-family-4 sm:py-0 xl:pl-10 lg:pl-10">
                 Football Bet

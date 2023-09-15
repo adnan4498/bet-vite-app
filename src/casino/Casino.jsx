@@ -27,7 +27,7 @@ const Casino = () => {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 5,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -72,14 +72,14 @@ const Casino = () => {
               <img
                 src={CarouselImg1}
                 alt="Carousel 1"
-                className="2xl:mx-0 mx-auto 2xl:w-500 w-350 p-10 xl:w-240 lg:w-180"
+                className="2xl:mx-0 mx-auto 2xl:w-500 w-350 p-10 lg:pt-7 pt-30 xl:w-282 lg:w-200"
               />
             </div>
             <div>
               <img
                 src={CarouselImg2}
                 alt="Carousel 2"
-                className="2xl:mx-0 mx-auto 2xl:w-500 w-350 2xl:mt-0 mt-20 xl:w-280 lg:w-210 p-10"
+                className="2xl:mx-0 mx-auto 2xl:w-500 w-350 2xl:mt-0 mt-20 lg:mt-0 xl:w-282 lg:w-200 p-10"
               />
             </div>
 
@@ -87,21 +87,21 @@ const Casino = () => {
               <img
                 src={CarouselImg3}
                 alt="Carousel 3"
-                className="2xl:mx-0 mx-auto 2xl:w-390 2xl:mb-50  2xl:max-w-600 w-350 2xl:mt-0 mt-11 xl:w-330 lg:w-240 p-10"
+                className="2xl:mx-0 mx-auto 2xl:w-390 2xl:mb-50  2xl:max-w-600 w-350 2xl:mt-0 lg:mt-0 mt-11 xl:w-295 lg:w-210 p-10 lg:mb-0 mb-30"
               />
             </div>
             <div>
               <img
                 src={CarouselImg4}
                 alt="Carousel 4"
-                className="2xl:mx-0 mx-auto 2xl:w-500 w-350 2xl:mt-0 mt-11 xl:w-280 lg:w-210 p-10"
+                className="2xl:mx-0 mx-auto 2xl:w-500 w-350 2xl:mt-0 mt-11 lg:mt-0 xl:w-282 lg:w-210 p-10"
               />
             </div>
             <div>
               <img
                 src={CarouselImg5}
                 alt="Carousel 5"
-                className="2xl:mx-0 mx-auto 2xl:w-500 w-350 2xl:mt-0 mt-20 xl:w-240 lg:w-180 p-10"
+                className="2xl:mx-0 mx-auto 2xl:w-500 w-350 2xl:mt-0 mt-20 lg:mb-20 lg:mt-0 xl:w-282 lg:w-200 p-10"
               />
             </div>
           </Carousel>
